@@ -2,8 +2,11 @@
     <section class="w-full py-24 px-0 bg-[#191735]">
         <div class="max-w-[1400px] mx-auto px-4">
             <div class="flex flex-col items-center mb-14">
-                <h2 class="text-4xl font-bold mb-2 text-[#b259ff] text-center">奖励运作机制</h2>
-                <div class="w-32 h-1 rounded-full bg-gradient-to-r from-[#a259ff] to-[#c94fff]"></div>
+                <h2
+                    class="text-4xl font-bold mb-2 bg-gradient-to-r from-[#6e44ff] to-[#ff44a4] text-transparent bg-clip-text">
+                    奖励运作机制
+                </h2>
+                <div class="w-32 h-1 rounded-full bg-gradient-to-r from-[#6e44ff] to-[#ff44a4]"></div>
             </div>
             <div class="flex flex-col lg:flex-row items-center gap-12 rounded-2xl p-12">
                 <!-- 左侧图片 -->

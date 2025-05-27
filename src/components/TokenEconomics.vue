@@ -3,9 +3,10 @@
         <div class="max-w-[1400px] mx-auto px-4">
             <div class="flex flex-col items-center mb-14">
                 <h2
-                    class="text-4xl font-bold mb-2 bg-gradient-to-r from-[#a259ff] to-[#c94fff] text-transparent bg-clip-text">
-                    代币经济</h2>
-                <div class="w-32 h-1 rounded-full bg-gradient-to-r from-[#a259ff] to-[#c94fff]"></div>
+                    class="text-4xl font-bold mb-2 bg-gradient-to-r from-[#6e44ff] to-[#ff44a4] text-transparent bg-clip-text">
+                    代币经济
+                </h2>
+                <div class="w-32 h-1 rounded-full bg-gradient-to-r from-[#6e44ff] to-[#ff44a4]"></div>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 <div

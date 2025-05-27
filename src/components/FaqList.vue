@@ -2,8 +2,11 @@
     <section class="w-full py-24 px-0 bg-[#1a1832]">
         <div class="max-w-4xl mx-auto px-4">
             <div class="flex flex-col items-center mb-14">
-                <h2 class="text-4xl font-bold mb-2 text-[#b259ff] text-center">常见问题</h2>
-                <div class="w-32 h-1 rounded-full bg-gradient-to-r from-[#a259ff] to-[#c94fff]"></div>
+                <h2
+                    class="text-4xl font-bold mb-2 bg-gradient-to-r from-[#6e44ff] to-[#ff44a4] text-transparent bg-clip-text">
+                    常见问题
+                </h2>
+                <div class="w-32 h-1 rounded-full bg-gradient-to-r from-[#6e44ff] to-[#ff44a4]"></div>
             </div>
             <div>
                 <div v-for="(item, idx) in faqs" :key="item.q" class="mb-6">
@@ -20,7 +23,8 @@
                                 </svg>
                             </div>
                             <transition name="faq-fade">
-                                <span v-if="openIndex === idx" class="mt-4 text-[#b8b8d0] text-base font-normal block">{{ item.a }}</span>
+                                <span v-if="openIndex === idx"
+                                    class="mt-4 text-[#b8b8d0] text-base font-normal block">{{ item.a }}</span>
                             </transition>
                         </div>
                     </button>
@@ -47,17 +51,22 @@ const faqs = [
 </script>
 
 <style scoped>
-.faq-fade-enter-active, .faq-fade-leave-active {
-  transition: all 0.5s cubic-bezier(.4,0,.2,1);
+.faq-fade-enter-active,
+.faq-fade-leave-active {
+    transition: all 0.5s cubic-bezier(.4, 0, .2, 1);
 }
-.faq-fade-enter-from, .faq-fade-leave-to {
-  opacity: 0;
-  max-height: 0;
-  transform: translateY(-10px);
+
+.faq-fade-enter-from,
+.faq-fade-leave-to {
+    opacity: 0;
+    max-height: 0;
+    transform: translateY(-10px);
 }
-.faq-fade-enter-to, .faq-fade-leave-from {
-  opacity: 1;
-  max-height: 200px;
-  transform: translateY(0);
+
+.faq-fade-enter-to,
+.faq-fade-leave-from {
+    opacity: 1;
+    max-height: 200px;
+    transform: translateY(0);
 }
 </style>

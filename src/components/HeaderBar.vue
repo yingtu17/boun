@@ -43,12 +43,12 @@ onUnmounted(() => {
             </nav>
             <div class="flex items-center gap-5">
                 <button
-                    class="bg-gradient-to-r from-[#6e44ff] to-[#ff44a4] text-white rounded-full px-4 py-2 text-xs font-medium shadow-[0_2px_16px_0_rgba(201,79,255,0.18)] transition-all duration-200 hover:from-[#ff44a4] hover:to-[#c94fff]">
+                    class="bg-gradient-to-r from-[#6e44ff] to-[#ff44a4] text-white rounded-full px-6 py-2 text-xs font-medium shadow-[0_2px_16px_0_rgba(201,79,255,0.18)] transition-all duration-200 hover:from-[#ff44a4] hover:to-[#c94fff]">
                     连接钱包
                 </button>
                 <button
-                    class="bg-none border-0 ml-2 rounded-full w-9 h-9 flex items-center justify-center cursor-pointer transition-shadow duration-200 hover:shadow-[0_0_0_2px_#c94fff33]">
-                    <img src="../assets/logo.webp" alt="CN" class="w-7 h-7 rounded-full object-cover" />
+                    class="bg-none border-0 ml-2 rounded-full w-9 h-9 flex items-center justify-center cursor-pointer">
+                    <img src="../assets/CN.png" alt="CN" class="w-7 h-7 rounded-full object-cover" />
                 </button>
             </div>
         </div>

@@ -2,10 +2,10 @@
     <section class="w-full py-24 mt-10">
         <div class="max-w-7xl mx-auto px-4">
             <div class="flex flex-col items-center mb-14">
-                <h2 class="text-4xl font-bold mb-2 bg-gradient-to-r from-[#a259ff] to-[#c94fff] text-transparent bg-clip-text">
+                <h2 class="text-4xl font-bold mb-2 bg-gradient-to-r from-[#6e44ff] to-[#ff44a4] text-transparent bg-clip-text">
                     关于 BOUNTY 奖励
                 </h2>
-                <div class="w-32 h-1 rounded-full bg-gradient-to-r from-[#a259ff] to-[#c94fff]"></div>
+                <div class="w-32 h-1 rounded-full bg-gradient-to-r from-[#6e44ff] to-[#ff44a4]"></div>
             </div>
             <div class="flex flex-col lg:flex-row items-center justify-between gap-12">
                 <!-- 左侧内容 -->
