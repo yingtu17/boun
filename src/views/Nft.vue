@@ -1,0 +1,165 @@
+<script setup>
+import NftCard from '@/components/NftCard.vue';
+import NFT1 from '@/assets/nft/NFT1.png';
+
+const nfts = [
+	{
+		id: 1,
+		name: 'ELON MUSK',
+		benefit: '福利',
+		benefitDesc: '0.2% 空投加成',
+		price: 200,
+		usd: 200,
+		image: NFT1,
+	},
+	{
+		id: 2,
+		name: 'ELON MUSK',
+		benefit: '福利',
+		benefitDesc: '0.2% 空投加成',
+		price: 200,
+		usd: 200,
+		image: NFT1,
+	},
+	{
+		id: 3,
+		name: 'ELON MUSK',
+		benefit: '福利',
+		benefitDesc: '0.5% 空投加成',
+		price: 500,
+		usd: 500,
+		image: NFT1,
+	},
+	{
+		id: 4,
+		name: 'ELON MUSK',
+		benefit: '福利',
+		benefitDesc: '0.5% 空投加成',
+		price: 500,
+		usd: 500,
+		image: NFT1,
+	},
+	{
+		id: 5,
+		name: 'ELON MUSK',
+		benefit: '福利',
+		benefitDesc: '0.8% 空投加成',
+		price: 800,
+		usd: 800,
+		image: NFT1,
+	},
+	{
+		id: 6,
+		name: 'ELON MUSK',
+		benefit: '福利',
+		benefitDesc: '0.8% 空投加成',
+		price: 800,
+		usd: 800,
+		image: NFT1,
+	},
+	{
+		id: 7,
+		name: 'ELON MUSK',
+		benefit: '福利',
+		benefitDesc: '1.0% 空投加成',
+		price: 1000,
+		usd: 1000,
+		image: NFT1,
+	},
+	{
+		id: 8,
+		name: 'ELON MUSK',
+		benefit: '福利',
+		benefitDesc: '1.0% 空投加成',
+		price: 1000,
+		usd: 1000,
+		image: NFT1,
+	},
+	{
+		id: 9,
+		name: 'DONALD TRUMP',
+		benefit: '福利',
+		benefitDesc: '1.5% 空投加成',
+		price: 2000,
+		usd: 2000,
+		image: NFT1,
+	},
+	{
+		id: 10,
+		name: 'DONALD TRUMP',
+		benefit: '福利',
+		benefitDesc: '1.5% 空投加成',
+		price: 2000,
+		usd: 2000,
+		image: NFT1,
+	},
+	{
+		id: 11,
+		name: 'DONALD TRUMP',
+		benefit: '福利',
+		benefitDesc: '5.0% 空投加成',
+		price: 5000,
+		usd: 5000,
+		image: NFT1,
+	},
+	{
+		id: 12,
+		name: 'DONALD TRUMP',
+		benefit: '福利',
+		benefitDesc: '5.0% 空投加成',
+		price: 5000,
+		usd: 5000,
+		image: NFT1,
+	},
+	{
+		id: 13,
+		name: 'DONALD TRUMP',
+		benefit: '福利',
+		benefitDesc: '8.0% 空投加成',
+		price: 8000,
+		usd: 8000,
+		image: NFT1,
+	},
+	{
+		id: 14,
+		name: 'DONALD TRUMP',
+		benefit: '福利',
+		benefitDesc: '8.0% 空投加成',
+		price: 8000,
+		usd: 8000,
+		image: NFT1,
+	},
+	{
+		id: 15,
+		name: 'DONALD TRUMP',
+		benefit: '福利',
+		benefitDesc: '10.0% 空投加成',
+		price: 10000,
+		usd: 10000,
+		image: NFT1,
+	},
+	{
+		id: 16,
+		name: 'DONALD TRUMP',
+		benefit: '福利',
+		benefitDesc: '10.0% 空投加成',
+		price: 10000,
+		usd: 10000,
+		image: NFT1,
+	},
+];
+</script>
+
+<template>
+	<div class="min-h-screen flex flex-col bg-gradient-to-b">
+		<div class="flex-1 w-full max-w-10/12 mx-auto px-6 py-10">
+			<h1 class="text-3xl font-bold text-[#7645f6] mb-2">NFT 市场</h1>
+			<p class="mb-8 text-[#b8b8d0] text-sm">每个 NFT 在 $BOUNTY 生态系统中为持有者提供独特的奖励和福利。</p>
+			<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-7">
+				<NftCard v-for="nft in nfts" :key="nft.id" :nft="nft" />
+			</div>
+		</div>
+	</div>
+</template>
+
+<style scoped></style>
