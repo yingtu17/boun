@@ -1,12 +1,10 @@
 <template>
-    <div class="flex-1 bg-[#1e1b3ab3] rounded-2xl border border-[#393a5a] p-0 flex flex-col min-w-[480px]">
-        <div class="px-8 pt-6 pb-2">
-            <h2 class="text-base font-bold text-white">{{ pair }}</h2>
+    <div class="flex-1 bg-[#1e1b3ab3] rounded-2xl border border-[#393a5a] p-0 flex flex-col w-full lg:min-w-[480px]">
+        <div class="px-4 md:px-8 pt-4 md:pt-6 pb-1 md:pb-2">
+            <h2 class="text-sm md:text-base font-bold text-white">{{ pair }}</h2>
         </div>
-        <div class="flex-1 flex flex-col justify-center items-center px-2 pb-6">
-            <div class="w-full h-[400px] rounded-xl overflow-hidden bg-[#18142a] flex items-center justify-center">
-                <canvas ref="chartCanvas" class="w-full h-full"></canvas>
-            </div>
+        <div class="flex-1 flex flex-col justify-center items-center px-2 pb-4 md:pb-6">
+            <canvas ref="chartCanvas" class="w-full h-[280px] md:h-[400px] rounded-xl overflow-hidden"></canvas>
         </div>
     </div>
 </template>

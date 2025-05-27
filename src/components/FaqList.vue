@@ -1,17 +1,14 @@
 <template>
-    <section class="w-full py-24 px-0 bg-[#1a1832]">
-        <div class="max-w-4xl mx-auto px-4">
-            <div class="flex flex-col items-center mb-14">
-                <h2
-                    class="text-4xl font-bold mb-2 bg-gradient-to-r from-[#6e44ff] to-[#ff44a4] text-transparent bg-clip-text">
-                    常见问题
-                </h2>
-                <div class="w-32 h-1 rounded-full bg-gradient-to-r from-[#6e44ff] to-[#ff44a4]"></div>
+    <section class="w-full py-12 md:py-24 px-0 bg-[#1a1832]">
+        <div class="max-w-3xl mx-auto px-4">
+            <div class="flex flex-col items-center mb-8 md:mb-14">
+                <h2 class="text-3xl md:text-4xl font-bold mb-2 text-[#b259ff] text-center">常见问题</h2>
+                <div class="w-32 h-1 rounded-full bg-gradient-to-r from-[#a259ff] to-[#c94fff]"></div>
             </div>
             <div>
-                <div v-for="(item, idx) in faqs" :key="item.q" class="mb-6">
+                <div v-for="(item, idx) in faqs" :key="item.q" class="mb-4 md:mb-6">
                     <button
-                        class="w-full flex justify-between items-center bg-[#1e1b3ab3] border border-[#393a5a] hover:!border-[#6e44ff] rounded-xl px-8 py-6 text-left text-white font-bold text-xl focus:outline-none transition"
+                        class="w-full flex justify-between items-center bg-[#1e1b3ab3] border border-[#393a5a] hover:!border-[#6e44ff] rounded-xl px-4 md:px-8 py-4 md:py-6 text-left text-white font-bold text-lg md:text-xl focus:outline-none transition"
                         @click="toggle(idx)">
                         <div class="flex flex-col flex-1 text-left">
                             <div class="flex items-center justify-between">

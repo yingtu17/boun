@@ -1,26 +1,22 @@
 <template>
-    <section class="w-full py-8 px-0">
+    <section class="w-full py-4 md:py-8 px-0">
         <div class="max-w-[800px] mx-auto">
-            <div class="flex flex-col items-center mb-14">
-                <h2 class="text-4xl font-bold mb-2 text-[#b259ff] text-center">常见问题</h2>
-                <div class="w-32 h-1 rounded-full bg-gradient-to-r from-[#6e44ff] to-[#ff44a4]"></div>
-            </div>
             <div>
-                <div v-for="(item, idx) in faqItems" :key="item.q" class="mb-4">
+                <div v-for="(item, idx) in faqItems" :key="item.q" class="mb-3 md:mb-4">
                     <button
-                        class="w-full flex justify-between items-center bg-[#1e1b3ab3] border border-[#393a5a] hover:!border-[#6e44ff] rounded-xl px-8 py-5 text-left text-white font-medium focus:outline-none transition"
+                        class="w-full flex justify-between items-center bg-[#1e1b3ab3] border border-[#393a5a] hover:!border-[#6e44ff] rounded-xl px-4 md:px-8 py-3 md:py-5 text-left text-white font-medium focus:outline-none transition"
                         @click="toggle(idx)">
                         <div class="flex flex-col flex-1 text-left">
                             <div class="flex items-center justify-between">
-                                <span>{{ item.q }}</span>
+                                <span class="text-sm md:text-base">{{ item.q }}</span>
                                 <svg :class="openIndex === idx ? 'rotate-180' : ''"
-                                    class="w-6 h-6 text-[#6e44ff] transition-transform duration-200" fill="none"
+                                    class="w-5 h-5 md:w-6 md:h-6 text-[#6e44ff] transition-transform duration-200 flex-shrink-0 ml-2" fill="none"
                                     stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                                     <path d="M19 9l-7 7-7-7"></path>
                                 </svg>
                             </div>
                             <transition name="faq-fade">
-                                <div v-if="openIndex === idx" class="mt-4 text-[#b8b8d0] text-sm font-normal block">
+                                <div v-if="openIndex === idx" class="mt-3 md:mt-4 text-[#b8b8d0] text-xs md:text-sm font-normal block">
                                     {{ item.a }}
                                 </div>
                             </transition>

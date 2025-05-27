@@ -6,12 +6,12 @@ import AccordionFaq from '@/components/AccordionFaq.vue';
 </script>
 
 <template>
-    <div class="min-h-screen py-16 px-8">
-        <div class="flex-1 w-full max-w-10/12 mx-auto px-6">
-            <h1 class="text-3xl font-bold text-[#b259ff] mb-4">信息与政策</h1>
-            <p class="text-[#b8b8d0] mb-12">提供重要信息、条款、政策和指南。</p>
+    <div class="min-h-screen py-8 md:py-16 px-4 md:px-8">
+        <div class="flex-1 w-full max-w-10/12 mx-auto px-3 md:px-6">
+            <h1 class="text-2xl md:text-3xl font-bold text-[#b259ff] mb-2 md:mb-4">信息与政策</h1>
+            <p class="text-[#b8b8d0] text-sm md:text-base mb-6 md:mb-12">提供重要信息、条款、政策和指南。</p>
         </div>
-        <div class="max-w-4xl mx-auto">
+        <div class="max-w-4xl mx-auto px-2 md:px-0">
             <RankingTable />
             <CreditBonusInfo />
             <DefiPoolInfo />

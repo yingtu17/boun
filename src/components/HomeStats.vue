@@ -1,24 +1,26 @@
 <template>
     <div class="mt-10">
-        <div class="rounded-xl bg-[#1e1b3ab3] bg-opacity-80 border border-[#393a5a] px-12 py-14 flex flex-col items-center max-w-8xl mx-auto"
-            style="min-height: 260px">
-            <p class="text-white text-2xl font-bold mb-6">下次奖励分发时间:</p>
+        <!-- 倒计时区域 -->
+        <div class="rounded-xl bg-[#1e1b3ab3] bg-opacity-80 border border-[#393a5a] px-4 md:px-12 py-8 md:py-14 flex flex-col items-center max-w-8xl mx-auto"
+            style="min-height: 200px">
+            <p class="text-white text-xl md:text-2xl font-bold mb-6">下次奖励分发时间:</p>
             <div class="flex items-end gap-4 mb-2">
                 <span
-                    class="text-6xl font-bold bg-gradient-to-r from-[#c94fff] to-[#7a5cff] text-transparent bg-clip-text">
+                    class="text-4xl md:text-6xl font-bold bg-gradient-to-r from-[#c94fff] to-[#7a5cff] text-transparent bg-clip-text">
                     {{ String(minutes).padStart(2, '0') }}
                 </span>
                 <span
-                    class="text-6xl font-bold bg-gradient-to-r from-[#c94fff] to-[#7a5cff] text-transparent bg-clip-text">
+                    class="text-4xl md:text-6xl font-bold bg-gradient-to-r from-[#c94fff] to-[#7a5cff] text-transparent bg-clip-text">
                     {{ String(seconds).padStart(2, '0') }}
                 </span>
             </div>
-            <div class="flex gap-16">
-                <span class="text-[#b8b8d0] text-lg">分钟</span>
-                <span class="text-[#b8b8d0] text-lg">秒</span>
+            <div class="flex gap-12 md:gap-16">
+                <span class="text-[#b8b8d0] text-base md:text-lg">分钟</span>
+                <span class="text-[#b8b8d0] text-base md:text-lg">秒</span>
             </div>
         </div>
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mt-12 max-w-7xl mx-auto">
+        <!-- 统计数据卡片 -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 mt-6 md:mt-12 max-w-7xl mx-auto">
             <div
                 class="rounded-xl bg-[#1e1b3ab3] bg-opacity-80 border border-[#393a5a] px-8 py-8 flex flex-col items-center">
                 <p class="text-[#b8b8d0] mb-2">忠诚收益</p>
