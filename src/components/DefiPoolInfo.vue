@@ -1,34 +1,37 @@
 <script setup>
+import { useI18n } from 'vue-i18n'
+const { t } = useI18n()
+
 const airdropData = [
-  { rank: '冠军', range: '100,000 - 299,999', percentage: '3.89 %' },
-  { rank: '精英', range: '50,000 - 99,999', percentage: '3.39 %' },
-  { rank: '专业', range: '30,000 - 49,999', percentage: '3.00 %' },
-  { rank: '新星', range: '10,000 - 29,999', percentage: '2.89 %' },
-  { rank: '探索者', range: '5,000 - 9,999', percentage: '2.59 %' },
-  { rank: '初学者', range: '1,000 - 4,999', percentage: '2.31 %' },
-  { rank: '新手', range: '100 - 999', percentage: '2.00 %' }
+  { rank: t('defi.rank1'), range: '100,000 - 299,999', percentage: '3.89 %' },
+  { rank: t('defi.rank2'), range: '50,000 - 99,999', percentage: '3.39 %' },
+  { rank: t('defi.rank3'), range: '30,000 - 49,999', percentage: '3.00 %' },
+  { rank: t('defi.rank4'), range: '10,000 - 29,999', percentage: '2.89 %' },
+  { rank: t('defi.rank5'), range: '5,000 - 9,999', percentage: '2.59 %' },
+  { rank: t('defi.rank6'), range: '1,000 - 4,999', percentage: '2.31 %' },
+  { rank: t('defi.rank7'), range: '100 - 999', percentage: '2.00 %' }
 ];
 
 defineProps({
   title: {
     type: String,
-    default: 'DeFi Pool USDT holding airdrop'
+    default: ''
   }
 });
 </script>
 
 <template>
   <div class="bg-[#1e1b3ab3] rounded-xl border border-[#393a5a] p-4 md:p-8 mb-6 md:mb-12 text-sm">
-    <h2 class="text-base md:text-lg text-white mb-3 md:mb-5">{{ title }}</h2>
+    <h2 class="text-base md:text-lg text-white mb-3 md:mb-5">{{ t('defi.title') }}</h2>
 
     <ul class="space-y-2 md:space-y-3 mb-4 md:mb-6">
       <li class="flex items-center">
         <div class="text-[#6e44ff] mr-2 text-base md:text-xl">•</div>
-        <p class="text-[#b8b8d0] text-xs md:text-sm">在钱包中持有 USDT，并在奖励中获得空投。</p>
+        <p class="text-[#b8b8d0] text-xs md:text-sm">{{ t('defi.desc1') }}</p>
       </li>
       <li class="flex items-center">
         <div class="text-[#6e44ff] mr-2 text-base md:text-xl">•</div>
-        <p class="text-[#b8b8d0] text-xs md:text-sm">通过持有 USDT 钱包赚取奖励并获得返利激励以提升收益。</p>
+        <p class="text-[#b8b8d0] text-xs md:text-sm">{{ t('defi.desc2') }}</p>
       </li>
     </ul>
 

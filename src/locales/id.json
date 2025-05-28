@@ -1,0 +1,171 @@
+{
+  "home": {
+    "title": "$BOUNTY",
+    "subtitle": "Reward USDT tertinggi di blockchain",
+    "desc": "Cukup pegang token USDT, dapatkan reward $BOUNTY otomatis setiap 60 menit",
+    "connect": "Hubungkan Dompet"
+  },
+  "nav": {
+    "home": "Beranda",
+    "rewards": "Reward",
+    "nft": "NFT",
+    "nft_market": "Pasar NFT",
+    "swap": "Tukar",
+    "policy": "Kebijakan",
+    "language": "Bahasa",
+    "language_current": "Indonesia"
+  },
+  "about": {
+    "title": "Dapatkan Penghasilan Pasif dengan $BOUNTY",
+    "desc1": "Protokol BOUNTY merevolusi cara pemegang kripto mendapatkan penghasilan pasif. Melalui sistem reward terverifikasi kami, pajak transaksi 8% didistribusikan 100% secara otomatis kepada pemegang USDT setiap 60 menit.",
+    "desc2": "Semakin banyak USDT yang Anda pegang, semakin banyak reward $BOUNTY yang Anda dapatkan—sesederhana itu. Tanpa staking, tanpa lock-up, cukup pegang untuk mendapatkan. Protokol kami mendistribusikan secara otomatis sesuai desain.",
+    "card1": {
+      "title": "Reward 60 Menit",
+      "desc": "Terima reward $BOUNTY secara otomatis setiap 60 menit"
+    },
+    "card2": {
+      "title": "Hasil Tertinggi",
+      "desc": "Pajak transaksi 8% didistribusikan kepada semua pemegang"
+    },
+    "card3": {
+      "title": "Aman & Transparan",
+      "desc": "Distribusi 100% terverifikasi on-chain, tanpa pengecualian"
+    },
+    "right": {
+      "desc": "Token reward tertinggi di blockchain",
+      "every": "Setiap:",
+      "minute": "menit",
+      "no_claim": "Tanpa klaim:",
+      "auto": "Otomatis"
+    }
+  },
+  "faq": {
+    "q1": "Apa itu layanan pool staking PoS Vol?",
+    "a1": "PoS Vol adalah layanan pool staking yang digerakkan oleh komunitas. Pengguna dapat berpartisipasi dalam staking dan mendapatkan reward. Protokol kami memastikan semua transaksi adil, transparan, dan dapat diverifikasi di blockchain.",
+    "q2": "Bagaimana biaya dihitung?",
+    "a2": "Biaya dihitung berdasarkan jumlah total partisipasi Anda. Kami menggunakan struktur tarif progresif: semakin banyak yang Anda stake, semakin rendah tarifnya. Tabel tarif terperinci tersedia di platform, dan semua biaya ditampilkan dengan jelas sebelum transaksi.",
+    "q3": "Apa yang terjadi setelah pengguna mendapatkan bunga tertentu?",
+    "a3": "Setelah mencapai ambang penghasilan tertentu, pengguna dapat menerima reward loyalitas tambahan. Reward ini secara otomatis dikreditkan ke akun Anda dan dapat ditarik atau di-stake kembali kapan saja.",
+    "q4": "Bagaimana pengguna dapat melacak penghasilan mereka?",
+    "a4": "Kami menyediakan alat pelacakan penghasilan komprehensif sehingga Anda dapat memantau penghasilan Anda secara real-time. Dashboard menampilkan kinerja historis, hasil saat ini, dan analitik prediktif.",
+    "q5": "Dapatkah persyaratan atau kebijakan berubah?",
+    "a5": "Kami dapat memperbarui ketentuan dan kebijakan kami dari waktu ke waktu untuk mencerminkan perubahan pasar atau persyaratan peraturan. Setiap perubahan besar akan diumumkan sebelumnya dengan periode transisi yang wajar.",
+    "q6": "Apa artinya menggunakan platform ini?",
+    "a6": "Dengan menggunakan platform kami, Anda menyetujui ketentuan layanan kami, kebijakan privasi, dan peraturan yang berlaku. Pengguna bertanggung jawab atas keamanan akun dan keputusan investasi mereka."
+  },
+  "faq2": {
+    "title": "FAQ",
+    "q1": "Bagaimana reward bekerja?",
+    "a1": "Reward didistribusikan secara otomatis oleh protokol, tanpa perlu klaim manual.",
+    "q2": "Apakah saya perlu mengklaim reward saya?",
+    "a2": "Tidak, reward secara otomatis dikirim ke dompet Anda.",
+    "q3": "Bagaimana jumlah reward dihitung?",
+    "a3": "Sistem secara otomatis mengalokasikan reward berdasarkan bagian kepemilikan USDT Anda.",
+    "q4": "Dompet apa yang kompatibel dengan $BOUNTY?",
+    "a4": "Kompatibel dengan dompet terdesentralisasi utama seperti MetaMask, Trust Wallet, dll.",
+    "q5": "Berapa banyak USDT yang saya butuhkan untuk mendapatkan reward?",
+    "a5": "Jumlah USDT berapa pun memenuhi syarat Anda untuk distribusi reward.",
+    "q6": "Bagaimana saya dapat memeriksa reward saya?",
+    "a6": "Anda dapat melihat reward Anda di explorer blockchain atau dompet Anda."
+  },
+  "credit_bonus": {
+    "title": "Acara Peningkatan Bonus Kredit Satu Kali",
+    "desc1": "Kami senang meluncurkan acara peningkatan bonus kredit satu kali. Setelah melakukan deposit tunggal, pengguna akan menerima bonus instan berdasarkan jumlah deposit.",
+    "desc2": "Level bonus adalah sebagai berikut:",
+    "level": "Deposit {amount} — Dapatkan bonus {percentage} = Perkiraan {reward}",
+    "tip": "Setiap pengguna hanya dapat mendaftar untuk setiap level bonus satu kali.",
+    "desc3": "Lakukan deposit satu kali dan nikmati reward tambahan — sederhana dan murah hati."
+  },
+  "defi": {
+    "title": "Airdrop Kepemilikan USDT DeFi Pool",
+    "desc1": "Pegang USDT di dompet Anda dan terima airdrop dalam reward.",
+    "desc2": "Dapatkan reward dan insentif rabat untuk meningkatkan hasil Anda dengan memegang USDT di dompet Anda.",
+    "rank1": "Juara",
+    "rank2": "Elit",
+    "rank3": "Pro",
+    "rank4": "Bintang Baru",
+    "rank5": "Penjelajah",
+    "rank6": "Pemula",
+    "rank7": "Novice"
+  },
+  "stats": {
+    "next_reward": "Distribusi reward berikutnya:",
+    "minute": "menit",
+    "second": "detik",
+    "loyalty": "Penghasilan Loyalitas",
+    "usdt_hold": "Kepemilikan USDT",
+    "auto_reward": "Reward Otomatis",
+    "auto_reward_value": "60 menit",
+    "marketcap": "Kapitalisasi Pasar"
+  },
+  "ranking": {
+    "title": "Bonus Peringkat",
+    "desc1": "Setiap pengguna hanya memenuhi syarat untuk satu bonus peringkat. Jumlah bonus akan ditentukan oleh level peringkat yang dicapai.",
+    "desc2": "Persentase bonus akan dihitung berdasarkan jumlah total.",
+    "rank1": "Juara",
+    "rank2": "Elit",
+    "rank3": "Pro",
+    "rank4": "Bintang Baru",
+    "rank5": "Penjelajah",
+    "rank6": "Pemula"
+  },
+  "reward_mech": {
+    "title": "Mekanisme Reward",
+    "subtitle": "Terima reward $BOUNTY secara otomatis setiap 60 menit",
+    "desc": "Protokol BOUNTY mengenakan pajak transaksi 8% pada semua pembelian, penjualan, dan transfer, dan mendistribusikan 100% darinya ke semua pemegang USDT secara proporsional.",
+    "step1": {
+      "title": "Bergabung dan Pegang",
+      "desc": "Dapatkan dan pegang USDT di dompet Anda"
+    },
+    "step2": {
+      "title": "Hasilkan Pendapatan",
+      "desc": "Pajak 8% dari semua transaksi dikonversi menjadi $BOUNTY"
+    },
+    "step3": {
+      "title": "Terima Reward",
+      "desc": "$BOUNTY didistribusikan secara otomatis ke dompet Anda setiap 60 menit"
+    }
+  },
+  "swap": {
+    "title": "Tukar",
+    "desc": "Tukar $BOUNTY secara instan dan tarik ke USDT dengan cepat! 🚀",
+    "from": "Dari",
+    "to": "Ke",
+    "max": "Maks",
+    "expected": "Perkiraan Penerimaan",
+    "impact": "Dampak Harga",
+    "connect": "Hubungkan Dompet"
+  },
+  "token": {
+    "title": "Tokenomics",
+    "total": "Total Pasokan",
+    "tax": "Pajak Transaksi",
+    "tax_desc": "Biaya 8% pada semua transaksi",
+    "distribution": "Distribusi Pajak",
+    "distribution_desc": "100% didistribusikan ke pemegang USDT sebagai\nreward $BOUNTY",
+    "frequency": "Frekuensi Reward",
+    "frequency_desc": "Setiap 60 menit"
+  },
+  "nft": {
+    "title": "Pasar NFT",
+    "desc": "Setiap NFT memberikan reward dan manfaat unik bagi pemegang di ekosistem $BOUNTY."
+  },
+  "policy": {
+    "title": "Kebijakan & Info",
+    "desc": "Informasi penting, ketentuan, kebijakan, dan pedoman."
+  },
+  "rewards": {
+    "title": "Reward",
+    "desc": "Dapatkan USDT dan tunggu airdrop",
+    "current_usdt": "Kepemilikan USDT Saat Ini",
+    "claimable": "Reward yang Dapat Diklaim",
+    "my_rewards": "Reward Saya",
+    "hourly": "Per jam:",
+    "daily": "Harian:",
+    "weekly": "Mingguan:",
+    "monthly": "Bulanan:",
+    "yearly": "Tahunan:",
+    "record": "Catatan Reward",
+    "no_data": "Tidak ada data tersedia"
+  }
+}

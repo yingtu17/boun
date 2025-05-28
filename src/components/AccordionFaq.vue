@@ -29,45 +29,33 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
+import { useI18n } from 'vue-i18n'
 
+const { t } = useI18n()
 const openIndex = ref(-1)
 const toggle = idx => {
     openIndex.value = openIndex.value === idx ? -1 : idx
 }
 
-defineProps({
-    faqItems: {
+const props = defineProps({
+    faqData: {
         type: Array,
-        required: true,
-        default: () => [
-            { 
-                q: 'PoS Vol 是一个质押池服务，提供用户...', 
-                a: 'PoS Vol 是一个由社区驱动的质押池服务。用户可以参与质押，并从中获取收益。我们的协议确保所有交易公平透明，并且在区块链上可以验证。' 
-            },
-            { 
-                q: '申计费根据总金额计算...', 
-                a: '费用计算基于您参与的总金额。我们采用累进制费率结构，资金量越大，费率越优惠。具体费率表可以在平台上查询，所有费用都会在交易前明确显示。' 
-            },
-            { 
-                q: '用户在获得一定利息后...', 
-                a: '用户在达到特定收益门槛后，可以获得额外的忠诚度奖励。这些奖励会自动计入您的账户，并可以随时提取或复投。' 
-            },
-            { 
-                q: '建议用户持续跟踪其收益...', 
-                a: '我们提供全面的收益跟踪工具，让您实时了解收益情况。通过仪表板，您可以查看历史性能、当前收益率和预测分析。' 
-            },
-            { 
-                q: '我们保留随时修改或更新...', 
-                a: '我们可能会不时更新服务条款和政策，以反映市场变化或监管要求。任何重大变更都会提前通知用户，并给予合理的过渡期。' 
-            },
-            { 
-                q: '使用本平台即表示您承认并同意...', 
-                a: '使用我们的平台即表示您同意我们的服务条款、隐私政策和相关法规。用户需对自己的账户安全和交易决策负责。' 
-            },
-        ]
+        required: false,
+        default: () => []
     }
 });
+
+const defaultFaqData = computed(() => [
+    { q: t('faq.q1'), a: t('faq.a1') },
+    { q: t('faq.q2'), a: t('faq.a2') },
+    { q: t('faq.q3'), a: t('faq.a3') },
+    { q: t('faq.q4'), a: t('faq.a4') },
+    { q: t('faq.q5'), a: t('faq.a5') },
+    { q: t('faq.q6'), a: t('faq.a6') }
+]);
+
+const faqItems = computed(() => props.faqData.length ? props.faqData : defaultFaqData.value);
 </script>
 
 <style scoped>

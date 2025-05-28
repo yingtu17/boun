@@ -1,6 +1,9 @@
 <script setup>
 import NftCard from '@/components/NftCard.vue';
 import NFT1 from '@/assets/nft/NFT1.png';
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
 
 const nfts = [
 	{
@@ -153,8 +156,8 @@ const nfts = [
 <template>
 	<div class="min-h-screen flex flex-col bg-gradient-to-b">
 		<div class="flex-1 w-full max-w-10/12 mx-auto px-4 md:px-6 py-6 md:py-10">
-			<h1 class="text-2xl md:text-3xl font-bold text-[#7645f6] mb-2">NFT 市场</h1>
-			<p class="mb-6 md:mb-8 text-[#b8b8d0] text-xs md:text-sm">每个 NFT 在 $BOUNTY 生态系统中为持有者提供独特的奖励和福利。</p>
+			<h1 class="text-2xl md:text-3xl font-bold text-[#7645f6] mb-2">{{ t('nft.title') }}</h1>
+			<p class="mb-6 md:mb-8 text-[#b8b8d0] text-xs md:text-sm">{{ t('nft.desc') }}</p>
 			<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-7">
 				<NftCard v-for="nft in nfts" :key="nft.id" :nft="nft" />
 			</div>

@@ -1,0 +1,171 @@
+{
+  "home": {
+    "title": "$BOUNTY",
+    "subtitle": "Les meilleures récompenses USDT sur la blockchain",
+    "desc": "Détenez des jetons USDT et gagnez automatiquement des récompenses $BOUNTY toutes les 60 minutes",
+    "connect": "Connecter le portefeuille"
+  },
+  "nav": {
+    "home": "Accueil",
+    "rewards": "Récompenses",
+    "nft": "NFT",
+    "nft_market": "Marché NFT",
+    "swap": "Échanger",
+    "policy": "Politique",
+    "language": "Langue",
+    "language_current": "Français"
+  },
+  "about": {
+    "title": "Gagnez un revenu passif avec $BOUNTY",
+    "desc1": "Le protocole BOUNTY révolutionne la façon dont les détenteurs de crypto gagnent un revenu passif. Grâce à notre système de récompenses vérifié, une taxe de transaction de 8% est automatiquement distribuée à 100% aux détenteurs d'USDT toutes les 60 minutes.",
+    "desc2": "Plus vous détenez d'USDT, plus vous recevez de récompenses $BOUNTY—c'est aussi simple que cela. Pas de staking, pas de verrouillage, il suffit de détenir pour gagner. Notre protocole distribue automatiquement selon sa conception.",
+    "card1": {
+      "title": "Récompenses toutes les 60 minutes",
+      "desc": "Recevez automatiquement des récompenses $BOUNTY toutes les 60 minutes"
+    },
+    "card2": {
+      "title": "Rendement maximal",
+      "desc": "Taxe de transaction de 8% redistribuée à tous les détenteurs"
+    },
+    "card3": {
+      "title": "Sécurisé & Transparent",
+      "desc": "Distribution 100% vérifiée sur la blockchain, sans exceptions"
+    },
+    "right": {
+      "desc": "Le jeton de récompense ultime sur la blockchain",
+      "every": "Chaque:",
+      "minute": "min",
+      "no_claim": "Sans réclamation:",
+      "auto": "Auto"
+    }
+  },
+  "faq": {
+    "q1": "Qu'est-ce que le service de pool de staking PoS Vol?",
+    "a1": "PoS Vol est un service de pool de staking géré par la communauté. Les utilisateurs peuvent participer au staking et gagner des récompenses. Notre protocole garantit que toutes les transactions sont équitables, transparentes et vérifiables sur la blockchain.",
+    "q2": "Comment les frais sont-ils calculés?",
+    "a2": "Les frais sont calculés en fonction de votre montant total de participation. Nous utilisons une structure de taux progressive: plus vous stakez, plus le taux est bas. Le tableau détaillé des taux est disponible sur la plateforme, et tous les frais sont clairement indiqués avant les transactions.",
+    "q3": "Que se passe-t-il après que les utilisateurs gagnent un certain intérêt?",
+    "a3": "Après avoir atteint des seuils de gains spécifiques, les utilisateurs peuvent recevoir des récompenses de fidélité supplémentaires. Ces récompenses sont automatiquement créditées sur votre compte et peuvent être retirées ou restakées à tout moment.",
+    "q4": "Comment les utilisateurs peuvent-ils suivre leurs gains?",
+    "a4": "Nous fournissons des outils complets de suivi des gains pour que vous puissiez surveiller vos gains en temps réel. Le tableau de bord affiche les performances historiques, le rendement actuel et des analyses prédictives.",
+    "q5": "Les termes ou les politiques peuvent-ils changer?",
+    "a5": "Nous pouvons mettre à jour nos conditions et politiques de temps à autre pour refléter les changements du marché ou les exigences réglementaires. Tout changement majeur sera annoncé à l'avance avec une période de transition raisonnable.",
+    "q6": "Que signifie l'utilisation de cette plateforme?",
+    "a6": "En utilisant notre plateforme, vous acceptez nos conditions de service, notre politique de confidentialité et les réglementations applicables. Les utilisateurs sont responsables de la sécurité de leur compte et de leurs décisions d'investissement."
+  },
+  "faq2": {
+    "title": "FAQ",
+    "q1": "Comment fonctionnent les récompenses?",
+    "a1": "Les récompenses sont automatiquement distribuées par le protocole, sans réclamation manuelle nécessaire.",
+    "q2": "Dois-je réclamer mes récompenses?",
+    "a2": "Non, les récompenses sont automatiquement envoyées à votre portefeuille.",
+    "q3": "Comment le montant de la récompense est-il calculé?",
+    "a3": "Le système alloue automatiquement les récompenses en fonction de votre part de détention d'USDT.",
+    "q4": "Quels portefeuilles sont compatibles avec $BOUNTY?",
+    "a4": "Compatible avec les principaux portefeuilles décentralisés tels que MetaMask, Trust Wallet, etc.",
+    "q5": "Combien d'USDT dois-je détenir pour gagner des récompenses?",
+    "a5": "N'importe quel montant d'USDT vous qualifie pour la distribution de récompenses.",
+    "q6": "Comment puis-je vérifier mes récompenses?",
+    "a6": "Vous pouvez consulter vos récompenses dans un explorateur de blockchain ou votre portefeuille."
+  },
+  "credit_bonus": {
+    "title": "Événement d'amélioration de bonus de crédit unique",
+    "desc1": "Nous sommes ravis de lancer un événement d'amélioration de bonus de crédit unique. Après avoir effectué un dépôt unique, les utilisateurs recevront un bonus instantané basé sur le montant du dépôt.",
+    "desc2": "Les niveaux de bonus sont les suivants:",
+    "level": "Dépôt {amount} — Obtenez {percentage} de bonus = Estimé {reward}",
+    "tip": "Chaque utilisateur ne peut postuler qu'une seule fois pour chaque niveau de bonus.",
+    "desc3": "Effectuez un dépôt unique et profitez de récompenses supplémentaires — simple et généreux."
+  },
+  "defi": {
+    "title": "Airdrop de détention USDT DeFi Pool",
+    "desc1": "Détenez USDT dans votre portefeuille et recevez des airdrops en récompenses.",
+    "desc2": "Gagnez des récompenses et obtenez des incitations de remise pour augmenter votre rendement en détenant USDT dans votre portefeuille.",
+    "rank1": "Champion",
+    "rank2": "Élite",
+    "rank3": "Pro",
+    "rank4": "Étoile Montante",
+    "rank5": "Explorateur",
+    "rank6": "Débutant",
+    "rank7": "Novice"
+  },
+  "stats": {
+    "next_reward": "Prochaine distribution de récompenses:",
+    "minute": "min",
+    "second": "sec",
+    "loyalty": "Gains de fidélité",
+    "usdt_hold": "Détention USDT",
+    "auto_reward": "Récompense auto",
+    "auto_reward_value": "60 min",
+    "marketcap": "Capitalisation"
+  },
+  "ranking": {
+    "title": "Bonus de classement",
+    "desc1": "Chaque utilisateur n'est éligible que pour un seul bonus de classement. Le montant du bonus sera déterminé par le niveau de classement atteint.",
+    "desc2": "Le pourcentage de bonus sera calculé sur la base du montant total.",
+    "rank1": "Champion",
+    "rank2": "Élite",
+    "rank3": "Pro",
+    "rank4": "Étoile Montante",
+    "rank5": "Explorateur",
+    "rank6": "Débutant"
+  },
+  "reward_mech": {
+    "title": "Mécanisme de récompense",
+    "subtitle": "Recevez automatiquement des récompenses $BOUNTY toutes les 60 minutes",
+    "desc": "Le protocole BOUNTY prélève une taxe de transaction de 8% sur tous les achats, ventes et transferts, et distribue 100% de celle-ci à tous les détenteurs d'USDT proportionnellement.",
+    "step1": {
+      "title": "Rejoindre et détenir",
+      "desc": "Obtenez et détenez USDT dans votre portefeuille"
+    },
+    "step2": {
+      "title": "Générer des revenus",
+      "desc": "8% de taxe sur toutes les transactions est converti en $BOUNTY"
+    },
+    "step3": {
+      "title": "Recevoir des récompenses",
+      "desc": "$BOUNTY est automatiquement distribué à votre portefeuille toutes les 60 minutes"
+    }
+  },
+  "swap": {
+    "title": "Échanger",
+    "desc": "Échangez $BOUNTY instantanément et retirez en USDT rapidement! 🚀",
+    "from": "De",
+    "to": "À",
+    "max": "Max",
+    "expected": "Réception prévue",
+    "impact": "Impact sur le prix",
+    "connect": "Connecter le portefeuille"
+  },
+  "token": {
+    "title": "Tokenomics",
+    "total": "Offre totale",
+    "tax": "Taxe de transaction",
+    "tax_desc": "8% de frais sur toutes les transactions",
+    "distribution": "Distribution de la taxe",
+    "distribution_desc": "100% distribué aux détenteurs d'USDT sous forme\nde récompenses $BOUNTY",
+    "frequency": "Fréquence des récompenses",
+    "frequency_desc": "Toutes les 60 min"
+  },
+  "nft": {
+    "title": "Marché NFT",
+    "desc": "Chaque NFT offre des récompenses et des avantages uniques pour les détenteurs dans l'écosystème $BOUNTY."
+  },
+  "policy": {
+    "title": "Politique & Informations",
+    "desc": "Informations importantes, conditions, politiques et directives."
+  },
+  "rewards": {
+    "title": "Récompenses",
+    "desc": "Obtenez USDT et attendez les airdrops",
+    "current_usdt": "Détention USDT actuelle",
+    "claimable": "Récompenses réclamables",
+    "my_rewards": "Mes récompenses",
+    "hourly": "Par heure:",
+    "daily": "Par jour:",
+    "weekly": "Par semaine:",
+    "monthly": "Par mois:",
+    "yearly": "Par an:",
+    "record": "Historique des récompenses",
+    "no_data": "Aucune donnée disponible"
+  }
+}

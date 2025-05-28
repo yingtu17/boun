@@ -2,7 +2,7 @@
     <section class="w-full py-12 md:py-24 px-0 bg-[#1a1832]">
         <div class="max-w-3xl mx-auto px-4">
             <div class="flex flex-col items-center mb-8 md:mb-14">
-                <h2 class="text-3xl md:text-4xl font-bold mb-2 text-[#b259ff] text-center">常见问题</h2>
+                <h2 class="text-3xl md:text-4xl font-bold mb-2 text-[#b259ff] text-center">{{ t('faq2.title') }}</h2>
                 <div class="w-32 h-1 rounded-full bg-gradient-to-r from-[#a259ff] to-[#c94fff]"></div>
             </div>
             <div>
@@ -33,17 +33,19 @@
 
 <script setup>
 import { ref } from 'vue'
+import { useI18n } from 'vue-i18n'
+const { t } = useI18n()
 const openIndex = ref(-1)
 const toggle = idx => {
     openIndex.value = openIndex.value === idx ? -1 : idx
 }
 const faqs = [
-    { q: '奖励是如何运作的?', a: '奖励通过协议自动分发，无需手动领取。' },
-    { q: '我需要领取奖励吗?', a: '不需要，奖励会自动发放到你的钱包。' },
-    { q: '奖励金额是如何计算的?', a: '根据你持有的 USDT 数量占比，系统自动分配。' },
-    { q: '$BOUNTY 兼容哪些钱包?', a: '兼容主流去中心化钱包，如 MetaMask、Trust Wallet 等。' },
-    { q: '我需要持有多少 USDT 才能获得奖励?', a: '持有任意数量 USDT 即可参与奖励分配。' },
-    { q: '我该如何查看我的奖励?', a: '你可以在区块链浏览器或钱包中查看奖励明细。' },
+    { q: t('faq2.q1'), a: t('faq2.a1') },
+    { q: t('faq2.q2'), a: t('faq2.a2') },
+    { q: t('faq2.q3'), a: t('faq2.a3') },
+    { q: t('faq2.q4'), a: t('faq2.a4') },
+    { q: t('faq2.q5'), a: t('faq2.a5') },
+    { q: t('faq2.q6'), a: t('faq2.a6') },
 ]
 </script>
 

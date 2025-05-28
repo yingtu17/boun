@@ -1,0 +1,171 @@
+{
+  "home": {
+    "title": "$BOUNTY",
+    "subtitle": "Phần thưởng USDT cao nhất trên blockchain",
+    "desc": "Chỉ cần giữ token USDT, nhận thưởng $BOUNTY tự động mỗi 60 phút",
+    "connect": "Kết nối ví"
+  },
+  "nav": {
+    "home": "Trang chủ",
+    "rewards": "Phần thưởng",
+    "nft": "NFT",
+    "nft_market": "Thị trường NFT",
+    "swap": "Hoán đổi",
+    "policy": "Chính sách",
+    "language": "Ngôn ngữ",
+    "language_current": "Tiếng Việt"
+  },
+  "about": {
+    "title": "Kiếm thu nhập thụ động với $BOUNTY",
+    "desc1": "Giao thức BOUNTY đang cách mạng hóa cách các nhà đầu tư tiền điện tử kiếm thu nhập thụ động. Thông qua hệ thống phần thưởng đã được xác minh của chúng tôi, 8% thuế giao dịch được phân phối tự động 100% cho những người nắm giữ USDT mỗi 60 phút.",
+    "desc2": "Càng nắm giữ nhiều USDT, bạn càng nhận được nhiều phần thưởng $BOUNTY—đơn giản như vậy. Không cần staking, không cần khóa, chỉ cần giữ để kiếm tiền. Giao thức của chúng tôi phân phối tự động theo thiết kế.",
+    "card1": {
+      "title": "Phần thưởng mỗi 60 phút",
+      "desc": "Nhận phần thưởng $BOUNTY tự động mỗi 60 phút"
+    },
+    "card2": {
+      "title": "Lợi nhuận cao nhất",
+      "desc": "8% thuế giao dịch được phân phối lại cho tất cả người nắm giữ"
+    },
+    "card3": {
+      "title": "An toàn & Minh bạch",
+      "desc": "Phân phối được xác minh 100% trên chuỗi, không có ngoại lệ"
+    },
+    "right": {
+      "desc": "Token phần thưởng tối ưu trên blockchain",
+      "every": "Mỗi:",
+      "minute": "phút",
+      "no_claim": "Không cần yêu cầu:",
+      "auto": "Tự động"
+    }
+  },
+  "faq": {
+    "q1": "Dịch vụ pool staking PoS Vol là gì?",
+    "a1": "PoS Vol là một dịch vụ pool staking được cộng đồng điều hành. Người dùng có thể tham gia staking và nhận phần thưởng. Giao thức của chúng tôi đảm bảo rằng tất cả các giao dịch đều công bằng, minh bạch và có thể xác minh trên blockchain.",
+    "q2": "Phí được tính như thế nào?",
+    "a2": "Phí được tính dựa trên tổng số tiền bạn tham gia. Chúng tôi sử dụng cấu trúc tỷ lệ tiến bộ: càng staking nhiều, tỷ lệ càng thấp. Bảng tỷ lệ chi tiết có sẵn trên nền tảng và tất cả các khoản phí đều được hiển thị rõ ràng trước khi giao dịch.",
+    "q3": "Điều gì xảy ra sau khi người dùng kiếm được một số lãi nhất định?",
+    "a3": "Sau khi đạt đến ngưỡng thu nhập cụ thể, người dùng có thể nhận được phần thưởng trung thành bổ sung. Những phần thưởng này được tự động ghi có vào tài khoản của bạn và có thể rút hoặc staking lại bất kỳ lúc nào.",
+    "q4": "Người dùng có thể theo dõi thu nhập của mình như thế nào?",
+    "a4": "Chúng tôi cung cấp các công cụ theo dõi thu nhập toàn diện để bạn có thể giám sát thu nhập của mình theo thời gian thực. Bảng điều khiển hiển thị hiệu suất lịch sử, lợi suất hiện tại và phân tích dự đoán.",
+    "q5": "Điều khoản hoặc chính sách có thể thay đổi không?",
+    "a5": "Chúng tôi có thể cập nhật điều khoản và chính sách của mình theo thời gian để phản ánh sự thay đổi của thị trường hoặc yêu cầu quy định. Bất kỳ thay đổi lớn nào sẽ được thông báo trước với thời gian chuyển đổi hợp lý.",
+    "q6": "Sử dụng nền tảng này có nghĩa là gì?",
+    "a6": "Bằng cách sử dụng nền tảng của chúng tôi, bạn đồng ý với điều khoản dịch vụ, chính sách bảo mật và các quy định áp dụng. Người dùng chịu trách nhiệm về bảo mật tài khoản và quyết định đầu tư của mình."
+  },
+  "faq2": {
+    "title": "Câu hỏi thường gặp",
+    "q1": "Phần thưởng hoạt động như thế nào?",
+    "a1": "Phần thưởng được phân phối tự động bởi giao thức, không cần yêu cầu thủ công.",
+    "q2": "Tôi có cần yêu cầu phần thưởng của mình không?",
+    "a2": "Không, phần thưởng được gửi tự động vào ví của bạn.",
+    "q3": "Số tiền thưởng được tính như thế nào?",
+    "a3": "Hệ thống tự động phân bổ phần thưởng dựa trên tỷ lệ nắm giữ USDT của bạn.",
+    "q4": "$BOUNTY tương thích với những ví nào?",
+    "a4": "Tương thích với các ví phi tập trung chính như MetaMask, Trust Wallet, v.v.",
+    "q5": "Tôi cần giữ bao nhiêu USDT để nhận phần thưởng?",
+    "a5": "Bất kỳ số lượng USDT nào cũng đủ điều kiện để bạn nhận phần thưởng.",
+    "q6": "Tôi có thể kiểm tra phần thưởng của mình ở đâu?",
+    "a6": "Bạn có thể xem phần thưởng của mình trên trình khám phá blockchain hoặc trong ví của bạn."
+  },
+  "credit_bonus": {
+    "title": "Sự kiện Tăng cường Thưởng Tín dụng Một lần",
+    "desc1": "Chúng tôi rất vui mừng ra mắt sự kiện tăng cường thưởng tín dụng một lần. Sau khi thực hiện một khoản tiền gửi duy nhất, người dùng sẽ nhận được phần thưởng ngay lập tức dựa trên số tiền gửi.",
+    "desc2": "Các cấp độ thưởng như sau:",
+    "level": "Gửi {amount} — Nhận {percentage} thưởng = Ước tính {reward}",
+    "tip": "Mỗi người dùng chỉ có thể đăng ký một lần cho mỗi cấp độ thưởng.",
+    "desc3": "Thực hiện một khoản tiền gửi duy nhất và tận hưởng phần thưởng bổ sung — đơn giản và hào phóng."
+  },
+  "defi": {
+    "title": "Airdrop Nắm giữ USDT DeFi Pool",
+    "desc1": "Giữ USDT trong ví của bạn và nhận airdrop dưới dạng phần thưởng.",
+    "desc2": "Kiếm phần thưởng và nhận ưu đãi hoàn tiền để tăng lợi nhuận của bạn bằng cách giữ USDT trong ví của bạn.",
+    "rank1": "Nhà vô địch",
+    "rank2": "Tinh anh",
+    "rank3": "Chuyên gia",
+    "rank4": "Ngôi sao đang lên",
+    "rank5": "Nhà thám hiểm",
+    "rank6": "Người mới bắt đầu",
+    "rank7": "Người mới"
+  },
+  "stats": {
+    "next_reward": "Phân phối phần thưởng tiếp theo:",
+    "minute": "phút",
+    "second": "giây",
+    "loyalty": "Thu nhập trung thành",
+    "usdt_hold": "Nắm giữ USDT",
+    "auto_reward": "Phần thưởng tự động",
+    "auto_reward_value": "60 phút",
+    "marketcap": "Vốn hóa thị trường"
+  },
+  "ranking": {
+    "title": "Thưởng Xếp hạng",
+    "desc1": "Mỗi người dùng chỉ đủ điều kiện nhận một phần thưởng xếp hạng. Số tiền thưởng sẽ được xác định bởi cấp độ xếp hạng đạt được.",
+    "desc2": "Tỷ lệ phần trăm thưởng sẽ được tính dựa trên tổng số tiền.",
+    "rank1": "Nhà vô địch",
+    "rank2": "Tinh anh",
+    "rank3": "Chuyên gia",
+    "rank4": "Ngôi sao đang lên",
+    "rank5": "Nhà thám hiểm",
+    "rank6": "Người mới bắt đầu"
+  },
+  "reward_mech": {
+    "title": "Cơ chế Phần thưởng",
+    "subtitle": "Nhận phần thưởng $BOUNTY tự động mỗi 60 phút",
+    "desc": "Giao thức BOUNTY tính thuế giao dịch 8% trên tất cả các giao dịch mua, bán và chuyển khoản, và phân phối 100% số tiền đó cho tất cả những người nắm giữ USDT theo tỷ lệ.",
+    "step1": {
+      "title": "Tham gia và Nắm giữ",
+      "desc": "Nhận và giữ USDT trong ví của bạn"
+    },
+    "step2": {
+      "title": "Tạo Thu nhập",
+      "desc": "8% thuế từ tất cả các giao dịch được chuyển đổi thành $BOUNTY"
+    },
+    "step3": {
+      "title": "Nhận Phần thưởng",
+      "desc": "$BOUNTY được phân phối tự động vào ví của bạn mỗi 60 phút"
+    }
+  },
+  "swap": {
+    "title": "Hoán đổi",
+    "desc": "Hoán đổi $BOUNTY ngay lập tức và rút về USDT nhanh chóng! 🚀",
+    "from": "Từ",
+    "to": "Đến",
+    "max": "Tối đa",
+    "expected": "Dự kiến nhận",
+    "impact": "Tác động giá",
+    "connect": "Kết nối ví"
+  },
+  "token": {
+    "title": "Tokenomics",
+    "total": "Tổng cung",
+    "tax": "Thuế giao dịch",
+    "tax_desc": "Phí 8% trên tất cả các giao dịch",
+    "distribution": "Phân phối Thuế",
+    "distribution_desc": "100% được phân phối cho những người nắm giữ USDT dưới dạng\nphần thưởng $BOUNTY",
+    "frequency": "Tần suất Phần thưởng",
+    "frequency_desc": "Mỗi 60 phút"
+  },
+  "nft": {
+    "title": "Thị trường NFT",
+    "desc": "Mỗi NFT cung cấp phần thưởng và lợi ích độc đáo cho những người nắm giữ trong hệ sinh thái $BOUNTY."
+  },
+  "policy": {
+    "title": "Chính sách & Thông tin",
+    "desc": "Thông tin quan trọng, điều khoản, chính sách và hướng dẫn."
+  },
+  "rewards": {
+    "title": "Phần thưởng",
+    "desc": "Nhận USDT và chờ airdrop",
+    "current_usdt": "Nắm giữ USDT hiện tại",
+    "claimable": "Phần thưởng có thể yêu cầu",
+    "my_rewards": "Phần thưởng của tôi",
+    "hourly": "Hàng giờ:",
+    "daily": "Hàng ngày:",
+    "weekly": "Hàng tuần:",
+    "monthly": "Hàng tháng:",
+    "yearly": "Hàng năm:",
+    "record": "Lịch sử Phần thưởng",
+    "no_data": "Không có dữ liệu khả dụng"
+  }
+}

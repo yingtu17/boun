@@ -1,5 +1,7 @@
 <script setup>
 import { defineProps, defineEmits } from 'vue'
+import { useI18n } from 'vue-i18n'
+const { t } = useI18n()
 
 const props = defineProps({
     fromToken: { type: String, default: '$BOUNTY' },
@@ -18,10 +20,10 @@ const emit = defineEmits(['update:fromToken', 'update:toToken', 'update:fromAmou
             <!-- 从 -->
             <div class="rounded-xl bg-[#211e38] px-4 md:px-6 py-3 md:py-4 flex flex-col gap-1 md:gap-2">
                 <div class="flex justify-between items-center mb-0 md:mb-1">
-                    <span class="text-[#b8b8d0] text-[10px] md:text-xs">从</span>
+                    <span class="text-[#b8b8d0] text-[10px] md:text-xs">{{ t('swap.from') }}</span>
                     <div class="flex items-center gap-1 md:gap-2">
                         <span class="text-[#b8b8d0] text-[10px] md:text-xs">0.0000</span>
-                        <button class="bg-[#2e2a42] text-[#b8b8d0] px-1 md:px-2 py-0.5 rounded text-[10px] md:text-xs">最大值</button>
+                        <button class="bg-[#2e2a42] text-[#b8b8d0] px-1 md:px-2 py-0.5 rounded text-[10px] md:text-xs">{{ t('swap.max') }}</button>
                         <button class="bg-[#2e2a42] text-[#b8b8d0] px-1 md:px-2 py-0.5 rounded text-[10px] md:text-xs">50%</button>
                     </div>
                 </div>
@@ -51,7 +53,7 @@ const emit = defineEmits(['update:fromToken', 'update:toToken', 'update:fromAmou
             <!-- 到 -->
             <div class="rounded-xl bg-[#211e38] px-4 md:px-6 py-3 md:py-4 flex flex-col gap-1 md:gap-2">
                 <div class="flex justify-between items-center mb-0 md:mb-1">
-                    <span class="text-[#b8b8d0] text-[10px] md:text-xs">到</span>
+                    <span class="text-[#b8b8d0] text-[10px] md:text-xs">{{ t('swap.to') }}</span>
                 </div>
                 <div class="flex items-center gap-2 md:gap-3">
                     <div class="flex items-center gap-1 md:gap-2 bg-[#18142a] rounded-lg px-2 md:px-3 py-0.5 md:py-1 shrink-0">
@@ -68,18 +70,18 @@ const emit = defineEmits(['update:fromToken', 'update:toToken', 'update:fromAmou
             <!-- 额外信息 -->
             <div class="flex flex-col gap-2 md:gap-4 mt-1 md:mt-2 mb-1 md:mb-2 text-[#b8b8d0] text-[10px] md:text-sm">
                 <div class="flex justify-between items-center">
-                    <span>预计接收</span>
+                    <span>{{ t('swap.expected') }}</span>
                     <span class="text-white">0.00 USDT</span>
                 </div>
                 <div class="flex justify-between items-center">
-                    <span>价格影响</span>
+                    <span>{{ t('swap.impact') }}</span>
                     <span class="text-white">0 %</span>
                 </div>
             </div>
             <!-- 按钮 -->
             <button
                 class="bg-gradient-to-r from-[#8257f9] to-[#ff44a4] text-white rounded-full px-6 md:px-8 py-3 md:py-4 text-sm md:text-lg font-medium w-full mt-1 md:mt-2 shadow-[0_2px_16px_0_rgba(201,79,255,0.18)] transition-all duration-200 hover:brightness-105">
-                连接钱包
+                {{ t('swap.connect') }}
             </button>
         </div>
     </div>

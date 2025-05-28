@@ -1,0 +1,171 @@
+{
+  "home": {
+    "title": "$BOUNTY",
+    "subtitle": "The highest USDT rewards on the blockchain",
+    "desc": "Simply hold USDT tokens and earn $BOUNTY rewards automatically every 60 minutes",
+    "connect": "Connect Wallet"
+  },
+  "nav": {
+    "home": "Home",
+    "rewards": "Rewards",
+    "nft": "NFT",
+    "nft_market": "NFT Market",
+    "swap": "Swap",
+    "policy": "Policy",
+    "language": "Language",
+    "language_current": "English"
+  },
+  "about": {
+    "title": "Earn Passive Income with $BOUNTY",
+    "desc1": "The BOUNTY protocol is revolutionizing how crypto holders earn passive income. Through our verified reward system, 8% transaction tax is 100% automatically distributed to USDT holders every 60 minutes.",
+    "desc2": "The more USDT you hold, the more $BOUNTY rewards you get—it's that simple. No staking, no lock-up, just hold to earn. Our protocol distributes automatically as designed.",
+    "card1": {
+      "title": "60-Minute Rewards",
+      "desc": "Receive $BOUNTY rewards automatically every 60 minutes"
+    },
+    "card2": {
+      "title": "Highest Yield",
+      "desc": "8% transaction tax redistributed to all holders"
+    },
+    "card3": {
+      "title": "Secure & Transparent",
+      "desc": "100% on-chain verified distribution, no exceptions"
+    },
+    "right": {
+      "desc": "The ultimate reward token on blockchain",
+      "every": "Every:",
+      "minute": "min",
+      "no_claim": "No claim:",
+      "auto": "Auto"
+    }
+  },
+  "faq": {
+    "q1": "What is PoS Vol staking pool service?",
+    "a1": "PoS Vol is a community-driven staking pool service. Users can participate in staking and earn rewards. Our protocol ensures all transactions are fair, transparent, and verifiable on the blockchain.",
+    "q2": "How are fees calculated?",
+    "a2": "Fees are calculated based on your total participation amount. We use a progressive rate structure: the more you stake, the lower the rate. The detailed rate table is available on the platform, and all fees are clearly shown before transactions.",
+    "q3": "What happens after users earn a certain interest?",
+    "a3": "After reaching specific earning thresholds, users can receive additional loyalty rewards. These rewards are automatically credited to your account and can be withdrawn or restaked at any time.",
+    "q4": "How can users track their earnings?",
+    "a4": "We provide comprehensive earning tracking tools so you can monitor your earnings in real time. The dashboard shows historical performance, current yield, and predictive analytics.",
+    "q5": "Can the terms or policies change?",
+    "a5": "We may update our terms and policies from time to time to reflect market changes or regulatory requirements. Any major changes will be announced in advance with a reasonable transition period.",
+    "q6": "What does using this platform mean?",
+    "a6": "By using our platform, you agree to our terms of service, privacy policy, and applicable regulations. Users are responsible for their account security and investment decisions."
+  },
+  "faq2": {
+    "title": "FAQ",
+    "q1": "How do rewards work?",
+    "a1": "Rewards are automatically distributed by the protocol, no manual claim needed.",
+    "q2": "Do I need to claim my rewards?",
+    "a2": "No, rewards are automatically sent to your wallet.",
+    "q3": "How is the reward amount calculated?",
+    "a3": "The system automatically allocates rewards based on your share of USDT holdings.",
+    "q4": "Which wallets are compatible with $BOUNTY?",
+    "a4": "Compatible with major decentralized wallets such as MetaMask, Trust Wallet, etc.",
+    "q5": "How much USDT do I need to earn rewards?",
+    "a5": "Any amount of USDT qualifies you for reward distribution.",
+    "q6": "How can I check my rewards?",
+    "a6": "You can view your rewards in a blockchain explorer or your wallet."
+  },
+  "credit_bonus": {
+    "title": "One-time Credit Bonus Enhancement Event",
+    "desc1": "We are excited to launch a one-time credit bonus enhancement event. After making a single deposit, users will receive an instant bonus based on the deposit amount.",
+    "desc2": "Bonus levels are as follows:",
+    "level": "Deposit {amount} — Get {percentage} bonus = Estimated {reward}",
+    "tip": "Each user can only apply for each bonus level once.",
+    "desc3": "Make a one-time deposit and enjoy extra rewards — simple and generous."
+  },
+  "defi": {
+    "title": "DeFi Pool USDT Holding Airdrop",
+    "desc1": "Hold USDT in your wallet and receive airdrops in rewards.",
+    "desc2": "Earn rewards and get rebate incentives to boost your yield by holding USDT in your wallet.",
+    "rank1": "Champion",
+    "rank2": "Elite",
+    "rank3": "Pro",
+    "rank4": "Rising Star",
+    "rank5": "Explorer",
+    "rank6": "Beginner",
+    "rank7": "Novice"
+  },
+  "stats": {
+    "next_reward": "Next reward distribution:",
+    "minute": "min",
+    "second": "sec",
+    "loyalty": "Loyalty Earnings",
+    "usdt_hold": "USDT Holdings",
+    "auto_reward": "Auto Reward",
+    "auto_reward_value": "60 min",
+    "marketcap": "Market Cap"
+  },
+  "ranking": {
+    "title": "Ranking Bonus",
+    "desc1": "Each user is only eligible for one ranking bonus. The bonus amount will be determined by the achieved ranking level.",
+    "desc2": "The bonus percentage will be calculated based on the total amount.",
+    "rank1": "Champion",
+    "rank2": "Elite",
+    "rank3": "Pro",
+    "rank4": "Rising Star",
+    "rank5": "Explorer",
+    "rank6": "Beginner"
+  },
+  "reward_mech": {
+    "title": "Reward Mechanism",
+    "subtitle": "Automatically receive $BOUNTY rewards every 60 minutes",
+    "desc": "The BOUNTY protocol charges an 8% transaction tax on all buys, sells, and transfers, and distributes 100% of it to all USDT holders proportionally.",
+    "step1": {
+      "title": "Join and Hold",
+      "desc": "Get and hold USDT in your wallet"
+    },
+    "step2": {
+      "title": "Generate Income",
+      "desc": "8% tax from all transactions is converted to $BOUNTY"
+    },
+    "step3": {
+      "title": "Receive Rewards",
+      "desc": "$BOUNTY is automatically distributed to your wallet every 60 minutes"
+    }
+  },
+  "swap": {
+    "title": "Swap",
+    "desc": "Swap $BOUNTY instantly and withdraw to USDT fast! 🚀",
+    "from": "From",
+    "to": "To",
+    "max": "Max",
+    "expected": "Expected Receive",
+    "impact": "Price Impact",
+    "connect": "Connect Wallet"
+  },
+  "token": {
+    "title": "Tokenomics",
+    "total": "Total Supply",
+    "tax": "Transaction Tax",
+    "tax_desc": "8% fee on all transactions",
+    "distribution": "Tax Distribution",
+    "distribution_desc": "100% distributed to USDT holders as\n$BOUNTY rewards",
+    "frequency": "Reward Frequency",
+    "frequency_desc": "Every 60 min"
+  },
+  "nft": {
+    "title": "NFT Market",
+    "desc": "Each NFT provides unique rewards and benefits for holders in the $BOUNTY ecosystem."
+  },
+  "policy": {
+    "title": "Policy & Info",
+    "desc": "Important information, terms, policies, and guidelines."
+  },
+  "rewards": {
+    "title": "Rewards",
+    "desc": "Get USDT and wait for airdrops",
+    "current_usdt": "Current USDT Holdings",
+    "claimable": "Claimable Rewards",
+    "my_rewards": "My Rewards",
+    "hourly": "Hourly:",
+    "daily": "Daily:",
+    "weekly": "Weekly:",
+    "monthly": "Monthly:",
+    "yearly": "Yearly:",
+    "record": "Reward Record",
+    "no_data": "No data available"
+  }
+}
