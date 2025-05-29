@@ -167,5 +167,14 @@
     "yearly": "Hàng năm:",
     "record": "Lịch sử Phần thưởng",
     "no_data": "Không có dữ liệu khả dụng"
+  },
+  "referral": {
+    "title": "Giới thiệu của tôi",
+    "desc": "Chia sẻ liên kết giới thiệu của bạn và kiếm phần thưởng.",
+    "link_title": "Liên kết giới thiệu của bạn",
+    "copy": "Sao chép liên kết",
+    "stats_title": "Thống kê giới thiệu",
+    "total_referrals": "Tổng số lượt giới thiệu",
+    "total_rewards": "Tổng phần thưởng"
   }
 }

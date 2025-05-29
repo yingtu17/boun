@@ -26,6 +26,11 @@ const routes = [
     name: "Policy",
     component: () => import("../views/Policy.vue"),
   },
+  {
+    path: "/referral",
+    name: "Referral",
+    component: () => import("../views/MyReferral.vue"),
+  }
 ];
 
 const router = createRouter({

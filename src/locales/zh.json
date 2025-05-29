@@ -13,7 +13,8 @@
     "swap": "兑换",
     "policy": "信息与政策",
     "language": "语言",
-    "language_current": "简体中文"
+    "language_current": "简体中文",
+    "referral": "我的推荐"
   },
   "about": {
     "title": "以 $BOUNTY 赚取被动收入",
@@ -167,5 +168,14 @@
     "yearly": "每年:",
     "record": "奖励记录",
     "no_data": "暂无可用数据"
+  },
+  "referral": {
+    "title": "我的推荐",
+    "desc": "分享您的推荐链接并赚取奖励。",
+    "link_title": "您的推荐链接",
+    "copy": "复制链接",
+    "stats_title": "推荐统计",
+    "total_referrals": "总推荐人数",
+    "total_rewards": "总奖励"
   }
 }

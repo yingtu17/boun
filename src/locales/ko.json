@@ -167,5 +167,14 @@
     "yearly": "연간:",
     "record": "보상 기록",
     "no_data": "사용 가능한 데이터가 없습니다"
+  },
+  "referral": {
+    "title": "내 추천",
+    "desc": "추천 링크를 공유하고 보상을 받으세요.",
+    "link_title": "내 추천 링크",
+    "copy": "링크 복사",
+    "stats_title": "추천 통계",
+    "total_referrals": "총 추천 수",
+    "total_rewards": "총 보상"
   }
 }

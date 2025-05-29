@@ -167,5 +167,14 @@
     "yearly": "Anual:",
     "record": "Registro de Recompensas",
     "no_data": "Nenhum dado disponível"
+  },
+  "referral": {
+    "title": "Minhas Indicações",
+    "desc": "Compartilhe seu link de indicação e ganhe recompensas.",
+    "link_title": "Seu Link de Indicação",
+    "copy": "Copiar Link",
+    "stats_title": "Estatísticas de Indicação",
+    "total_referrals": "Total de Indicações",
+    "total_rewards": "Recompensas Totais"
   }
 }

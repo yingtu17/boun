@@ -167,5 +167,14 @@
     "yearly": "Par an:",
     "record": "Historique des récompenses",
     "no_data": "Aucune donnée disponible"
+  },
+  "referral": {
+    "title": "Mon Parrainage",
+    "desc": "Partagez votre lien de parrainage et gagnez des récompenses.",
+    "link_title": "Votre lien de parrainage",
+    "copy": "Copier le lien",
+    "stats_title": "Statistiques de parrainage",
+    "total_referrals": "Nombre total de filleuls",
+    "total_rewards": "Récompenses totales"
   }
 }

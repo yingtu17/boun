@@ -1,171 +1,181 @@
 {
   "home": {
     "title": "$BOUNTY",
-    "subtitle": "Die höchsten USDT-Belohnungen auf der Blockchain",
-    "desc": "Halte USDT-Token und erhalte alle 60 Minuten automatisch $BOUNTY-Belohnungen",
+    "subtitle": "Die höchsten USDT-Prämien auf der Blockchain",
+    "desc": "Earnen Sie automatisch $BOUNTY-Prämien alle 60 Minuten, einfach durch das Halten von USDT-Token",
     "connect": "Wallet verbinden"
   },
   "nav": {
     "home": "Startseite",
-    "rewards": "Belohnungen",
+    "rewards": "Prämien",
     "nft": "NFT",
-    "nft_market": "NFT Markt",
+    "nft_market": "NFT-Marktplatz",
     "swap": "Tauschen",
-    "policy": "Richtlinie",
+    "policy": "Info & Richtlinien",
     "language": "Sprache",
-    "language_current": "Deutsch"
+    "language_current": "Deutsch",
+    "referral": "Meine Empfehlung"
   },
   "about": {
-    "title": "Verdiene passives Einkommen mit $BOUNTY",
-    "desc1": "Das BOUNTY-Protokoll revolutioniert die Art und Weise, wie Krypto-Inhaber passives Einkommen erzielen. Durch unser bewährtes Belohnungssystem werden 8% der Transaktionssteuer zu 100% automatisch an USDT-Inhaber verteilt, alle 60 Minuten.",
-    "desc2": "Je mehr USDT du hältst, desto mehr $BOUNTY-Belohnungen erhältst du - ganz einfach. Kein Staking, keine Sperrfrist, halte einfach nur und verdiene. Unser Protokoll verteilt automatisch gemäß dem Systemdesign.",
+    "title": "Passives Einkommen mit $BOUNTY",
+    "desc1": "Das BOUNTY-Protokoll revolutioniert die Art und Weise, wie Krypto-Inhaber passives Einkommen verdienen. Mit unserem verifizierten Belohnungssystem werden 8% der Transaktionssteuer zu 100% automatisch an USDT-Inhaber verteilt, alle 60 Minuten.",
+    "desc2": "Je mehr USDT Sie halten, desto mehr $BOUNTY-Prämien erhalten Sie – so einfach ist das. Kein Staking, kein Lock-up, einfach halten und verdienen. Unser Protokoll verteilt automatisch gemäß dem Systemdesign.",
     "card1": {
-      "title": "60 Minuten Belohnung",
-      "desc": "Erhalte alle 60 Minuten automatisch $BOUNTY-Belohnungen"
+      "title": "60-Minuten-Prämien",
+      "desc": "Erhalten Sie automatisch alle 60 Minuten $BOUNTY-Prämien"
     },
     "card2": {
       "title": "Höchste Rendite",
-      "desc": "8% Transaktionssteuer werden an alle Inhaber verteilt"
+      "desc": "8% Transaktionssteuer werden an alle Halter neu verteilt"
     },
     "card3": {
       "title": "Sicher & Transparent",
-      "desc": "100% on-chain verifiziert, keine Ausnahmen"
+      "desc": "100% on-chain verifizierte Verteilung, ohne Ausnahmen"
     },
     "right": {
-      "desc": "Das ultimative Belohnungstoken auf der Blockchain",
+      "desc": "Der ultimative Belohnungs-Token auf der Blockchain",
       "every": "Alle:",
       "minute": "Minuten",
-      "no_claim": "Keine Beanspruchung erforderlich:",
+      "no_claim": "Kein Claim nötig:",
       "auto": "Automatisch"
     }
   },
   "faq": {
-    "q1": "PoS Vol ist ein Staking-Pool-Service, der Benutzern ...",
-    "a1": "PoS Vol ist ein von der Community betriebener Staking-Pool-Service. Benutzer können am Staking teilnehmen und Erträge daraus erzielen. Unser Protokoll stellt sicher, dass alle Transaktionen fair und transparent sind und auf der Blockchain verifiziert werden können.",
-    "q2": "Die Gebühren werden basierend auf dem Gesamtbetrag berechnet ...",
-    "a2": "Die Gebührenberechnung basiert auf dem Gesamtbetrag, an dem Sie teilnehmen. Wir verwenden eine progressive Gebührenstruktur, bei der größere Beträge von günstigeren Sätzen profitieren. Der genaue Gebührenplan kann auf der Plattform eingesehen werden, alle Gebühren werden vor der Transaktion klar angezeigt.",
-    "q3": "Benutzer erhalten nach Erreichen bestimmter Zinsen ...",
-    "a3": "Benutzer, die einen bestimmten Ertragsmeilenstein erreichen, können zusätzliche Treueprämien erhalten. Diese Prämien werden automatisch Ihrem Konto gutgeschrieben und können jederzeit abgehoben oder reinvestiert werden.",
-    "q4": "Es wird empfohlen, dass Benutzer ihre Erträge kontinuierlich verfolgen ...",
-    "a4": "Wir bieten umfassende Tools zur Verfolgung von Erträgen, mit denen Sie Ihre Erträge in Echtzeit überwachen können. Über das Dashboard können Sie die historische Leistung, die aktuelle Rendite und die Prognoseanalysen einsehen.",
-    "q5": "Wir behalten uns das Recht vor, die Bedingungen oder Richtlinien jederzeit zu ändern oder zu aktualisieren ...",
-    "a5": "Wir können von Zeit zu Zeit die Nutzungsbedingungen und Richtlinien aktualisieren, um Marktveränderungen oder regulatorischen Anforderungen Rechnung zu tragen. Alle wesentlichen Änderungen werden den Benutzern im Voraus mitgeteilt und es wird eine angemessene Übergangsfrist gewährt.",
-    "q6": "Durch die Nutzung dieser Plattform erkennen Sie an und stimmen zu ...",
-    "a6": "Durch die Nutzung unserer Plattform stimmen Sie unseren Nutzungsbedingungen, Datenschutzrichtlinien und den geltenden Gesetzen zu. Die Benutzer sind für die Sicherheit ihres Kontos und ihrer Handelsentscheidungen verantwortlich."
+    "q1": "PoS Vol ist ein Staking-Pool-Service, der Benutzern...",
+    "a1": "PoS Vol ist ein Community-gesteuerter Staking-Pool-Service. Benutzer können am Staking teilnehmen und daraus Erträge erzielen. Unser Protokoll gewährleistet, dass alle Transaktionen fair und transparent sind und auf der Blockchain verifiziert werden können.",
+    "q2": "Gebühren werden basierend auf dem Gesamtbetrag berechnet...",
+    "a2": "Die Gebührenberechnung basiert auf Ihrem Gesamtbeteiligungsbetrag. Wir verwenden eine progressive Gebührenstruktur, bei der größere Beträge günstigere Gebührensätze erhalten. Die spezifische Gebührentabelle kann auf der Plattform eingesehen werden, alle Gebühren werden vor der Transaktion klar angezeigt.",
+    "q3": "Benutzer können nach Erhalt einer bestimmten Zinsmenge...",
+    "a3": "Nach Erreichen einer bestimmten Ertragsschwelle können Benutzer zusätzliche Treueprämien erhalten. Diese Prämien werden automatisch Ihrem Konto gutgeschrieben und können jederzeit abgehoben oder reinvestiert werden.",
+    "q4": "Benutzern wird empfohlen, ihre Erträge kontinuierlich zu verfolgen...",
+    "a4": "Wir bieten umfassende Tools zur Ertragsverfolgung, mit denen Sie Ihre Erträge in Echtzeit verfolgen können. Über das Dashboard können Sie die historische Performance, die aktuelle Rendite und Prognoseanalysen einsehen.",
+    "q5": "Wir behalten uns das Recht vor, diese jederzeit zu ändern oder zu aktualisieren...",
+    "a5": "Wir können unsere Nutzungsbedingungen und Richtlinien von Zeit zu Zeit aktualisieren, um Marktveränderungen oder regulatorische Anforderungen widerzuspiegeln. Wesentliche Änderungen werden den Benutzern im Voraus mitgeteilt und es wird eine angemessene Übergangsfrist gewährt.",
+    "q6": "Durch die Nutzung dieser Plattform bestätigen und stimmen Sie zu...",
+    "a6": "Durch die Nutzung unserer Plattform erklären Sie sich mit unseren Nutzungsbedingungen, der Datenschutzrichtlinie und den relevanten Vorschriften einverstanden. Benutzer sind für die Sicherheit ihres Kontos und ihre Handelsentscheidungen verantwortlich."
   },
   "faq2": {
     "title": "Häufig gestellte Fragen",
-    "q1": "Wie funktionieren die Belohnungen?",
-    "a1": "Die Belohnungen werden automatisch durch das Protokoll verteilt, eine manuelle Beanspruchung ist nicht erforderlich.",
-    "q2": "Muss ich die Belohnungen beanspruchen?",
-    "a2": "Nein, die Belohnungen werden automatisch auf dein Wallet gutgeschrieben.",
-    "q3": "Wie werden die Belohnungsbeträge berechnet?",
-    "a3": "Sie werden basierend auf dem Anteil der von dir gehaltenen USDT automatisch zugewiesen.",
+    "q1": "Wie funktionieren die Prämien?",
+    "a1": "Prämien werden automatisch durch das Protokoll verteilt, kein manueller Claim erforderlich.",
+    "q2": "Muss ich die Prämien abholen?",
+    "a2": "Nein, Prämien werden automatisch an Ihre Wallet gesendet.",
+    "q3": "Wie wird die Prämienhöhe berechnet?",
+    "a3": "Basierend auf Ihrem Anteil am gesamten USDT-Bestand, verteilt das System automatisch.",
     "q4": "Mit welchen Wallets ist $BOUNTY kompatibel?",
-    "a4": "Es ist mit gängigen dezentralen Wallets wie MetaMask, Trust Wallet usw. kompatibel.",
-    "q5": "Wie viel USDT muss ich halten, um Belohnungen zu erhalten?",
-    "a5": "Das Halten von beliebigen USDT-Mengen berechtigt zur Teilnahme an der Belohnungsverteilung.",
-    "q6": "Wie kann ich meine Belohnungen einsehen?",
-    "a6": "Du kannst die Belohnungsdetails im Blockchain-Explorer oder in deiner Wallet einsehen."
+    "a4": "Kompatibel mit gängigen dezentralen Wallets wie MetaMask, Trust Wallet usw.",
+    "q5": "Wie viel USDT muss ich mindestens halten, um Prämien zu erhalten?",
+    "a5": "Jeder beliebige USDT-Betrag berechtigt zur Teilnahme an der Prämienverteilung.",
+    "q6": "Wie kann ich meine Prämien einsehen?",
+    "a6": "Sie können die Prämien-Details im Blockchain-Explorer oder in Ihrer Wallet einsehen."
   },
   "credit_bonus": {
-    "title": "Einmalige Kreditbonus-Aktion",
-    "desc1": "Wir freuen uns, eine einmalige Kreditbonus-Aktion einzuführen. Nach einer Einzelzahlung erhält der Benutzer sofort einen Bonus basierend auf dem eingezahlten Betrag.",
-    "desc2": "Die Bonusstufen sind wie folgt:",
-    "level": "Einzahlung von {amount} — Erhalt von {percentage} Bonus = geschätzte {reward}",
-    "tip": "Jede Bonusstufe kann von jedem Benutzer nur einmal beantragt werden.",
-    "desc3": "Tätige eine Einmalzahlung und profitiere von zusätzlichen Belohnungen - einfach und lukrativ."
+    "title": "Einmalige Kreditbonus-Verstärkungsaktion",
+    "desc1": "Wir freuen uns, eine einmalige Kreditbonus-Verstärkungsaktion anzukündigen. Nachdem ein Benutzer eine Einzahlung getätigt hat, erhält er einen Sofortbonus basierend auf dem Einzahlungsbetrag.",
+    "desc2": "Die Bonuslevel sind wie folgt:",
+    "level": "Einzahlen {amount} — Erhalten Sie {percentage} Bonus = Geschätzt {reward}",
+    "tip": "Jedes Bonuslevel kann nur einmal pro Benutzer beansprucht werden.",
+    "desc3": "Tätigen Sie eine einmalige Einzahlung und genießen Sie zusätzliche Belohnungen – einfach und lukrativ."
   },
   "defi": {
-    "title": "DeFi Pool USDT-Holding Airdrop",
-    "desc1": "Halte USDT in deiner Wallet und erhalte Airdrops in den Belohnungen.",
-    "desc2": "Verdiene Belohnungen durch das Halten von USDT-Wallets und erhalte Anreizvergütungen zur Steigerung deiner Erträge.",
+    "title": "DeFi Pool USDT-Holding-Airdrop",
+    "desc1": "Halten Sie USDT in Ihrer Wallet und erhalten Sie Airdrops als Belohnung.",
+    "desc2": "Verdienen Sie Belohnungen durch das Halten einer USDT-Wallet und erhalten Sie Rückvergütungsanreize, um Ihre Erträge zu steigern.",
     "rank1": "Champion",
     "rank2": "Elite",
     "rank3": "Profi",
-    "rank4": "Stern",
+    "rank4": "Aufsteiger",
     "rank5": "Entdecker",
     "rank6": "Anfänger",
     "rank7": "Neuling"
   },
   "stats": {
-    "next_reward": "Nächste Belohnungsverteilung in:",
+    "next_reward": "Nächste Prämienverteilung in:",
     "minute": "Minuten",
     "second": "Sekunden",
     "loyalty": "Treueerträge",
-    "usdt_hold": "USDT-Holding",
-    "auto_reward": "Automatische Belohnung",
+    "usdt_hold": "USDT-Bestand",
+    "auto_reward": "Automatische Prämien",
     "auto_reward_value": "60 Minuten",
     "marketcap": "Marktkapitalisierung"
   },
   "ranking": {
-    "title": "Ranking-Bonus",
-    "desc1": "Jeder Benutzer kann nur einmal für den Ranking-Bonus in Frage kommen. Die Bonushöhe wird basierend auf der erreichten Rangstufe festgelegt.",
+    "title": "Ranglistenbonus",
+    "desc1": "Jeder Benutzer kann sich nur einmal für einen Ranglistenbonus qualifizieren. Der Bonusbetrag wird basierend auf dem erreichten Ranglistenlevel bestimmt.",
     "desc2": "Der Bonusprozentsatz wird basierend auf dem Gesamtbetrag berechnet.",
     "rank1": "Champion",
     "rank2": "Elite",
     "rank3": "Profi",
-    "rank4": "Stern",
+    "rank4": "Aufsteiger",
     "rank5": "Entdecker",
     "rank6": "Anfänger"
   },
   "reward_mech": {
     "title": "Belohnungsmechanismus",
-    "subtitle": "Erhalte alle 60 Minuten automatisch $BOUNTY-Belohnungen",
-    "desc": "Das BOUNTY-Protokoll erhebt eine Transaktionssteuer von 8% auf alle Käufe, Verkäufe und Übertragungen und verteilt diese zu 100% anteilig an alle USDT-Inhaber.",
+    "subtitle": "Erhalten Sie automatisch alle 60 Minuten $BOUNTY-Prämien",
+    "desc": "Das BOUNTY-Protokoll erhebt auf alle Kauf-, Verkaufs- und Transfertransaktionen eine 8%ige Steuer und verteilt diese zu 100% anteilig an alle USDT-Inhaber.",
     "step1": {
-      "title": "Beitreten und Halten",
-      "desc": "Erwerbe und halte USDT in deiner Wallet"
+      "title": "Beitreten & Halten",
+      "desc": "Beschaffen und halten Sie USDT in Ihrer Wallet"
     },
     "step2": {
-      "title": "Einkommen generieren",
-      "desc": "Die aus allen Transaktionen erhobene Steuer von 8% wird in $BOUNTY umgewandelt"
+      "title": "Einnahmen generieren",
+      "desc": "Die 8% Steuer auf alle Transaktionen wird in $BOUNTY umgewandelt"
     },
     "step3": {
       "title": "Belohnungen erhalten",
-      "desc": "$BOUNTY wird alle 60 Minuten automatisch auf dein Wallet verteilt"
+      "desc": "$BOUNTY wird alle 60 Minuten automatisch an Ihre Wallet gesendet"
     }
   },
   "swap": {
     "title": "Tauschen",
-    "desc": "Tausche jetzt $BOUNTY und hebe es schnell als USDT ab! 🚀",
+    "desc": "Tauschen Sie jetzt $BOUNTY und ziehen Sie es schnell als USDT ab! 🚀",
     "from": "Von",
-    "to": "Nach",
-    "max": "Maximal",
-    "expected": "Erwartete Empfangsmenge",
-    "impact": "Preiswirkung",
+    "to": "Zu",
+    "max": "Max",
+    "expected": "Erwarteter Erhalt",
+    "impact": "Preisauswirkung",
     "connect": "Wallet verbinden"
   },
   "token": {
-    "title": "Token-Ökonomie",
-    "total": "Gesamtmenge der Token",
+    "title": "Tokenomics",
+    "total": "Gesamttoken-Angebot",
     "tax": "Transaktionssteuer",
-    "tax_desc": "Alle Transaktionen unterliegen einer Steuer von 8%",
+    "tax_desc": "8% auf alle Transaktionen",
     "distribution": "Steuerverteilung",
-    "distribution_desc": "100% werden an USDT-Inhaber als\n$BOUNTY-Belohnung verteilt",
-    "frequency": "Belohnungsfrequenz",
+    "distribution_desc": "100% verteilt an USDT-Halter als\n$BOUNTY-Prämien",
+    "frequency": "Prämienhäufigkeit",
     "frequency_desc": "Alle 60 Minuten"
   },
   "nft": {
-    "title": "NFT Markt",
-    "desc": "Jedes NFT bietet einzigartige Belohnungen und Vorteile für die Inhaber im $BOUNTY-Ökosystem."
+    "title": "NFT-Marktplatz",
+    "desc": "Jedes NFT bietet seinen Haltern einzigartige Belohnungen und Vorteile im $BOUNTY-Ökosystem."
   },
   "policy": {
-    "title": "Informationen und Richtlinien",
+    "title": "Info & Richtlinien",
     "desc": "Bietet wichtige Informationen, Bedingungen, Richtlinien und Anleitungen."
   },
   "rewards": {
-    "title": "Belohnungen",
-    "desc": "Erhalte USDT und warte auf Airdrops",
+    "title": "Prämien",
+    "desc": "Holen Sie sich USDT und warten Sie auf den Airdrop",
     "current_usdt": "Aktueller USDT-Bestand",
-    "claimable": "Beanspruchbare Belohnungen",
-    "my_rewards": "Meine Belohnungen",
+    "claimable": "Beanspruchbare Prämien",
+    "my_rewards": "Meine Prämien",
     "hourly": "Stündlich:",
     "daily": "Täglich:",
     "weekly": "Wöchentlich:",
     "monthly": "Monatlich:",
     "yearly": "Jährlich:",
-    "record": "Belohnungsaufzeichnung",
-    "no_data": "Keine verfügbaren Daten"
+    "record": "Prämienprotokoll",
+    "no_data": "Keine Daten verfügbar"
+  },
+  "referral": {
+    "title": "Meine Empfehlung",
+    "desc": "Teilen Sie Ihren Empfehlungslink und verdienen Sie Belohnungen.",
+    "link_title": "Ihr Empfehlungslink",
+    "copy": "Link kopieren",
+    "stats_title": "Empfehlungsstatistiken",
+    "total_referrals": "Gesamtzahl Empfehlungen",
+    "total_rewards": "Gesamtbelohnungen"
   }
 }

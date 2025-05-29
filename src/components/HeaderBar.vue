@@ -55,6 +55,9 @@ onUnmounted(() => {
                 <RouterLink to="/policy" exact-active-class="active"
                     class="text-[#abc4ff80] hover:text-white no-underline font-medium text-xs transition-colors duration-200"
                     :class="$route.path === '/policy' ? 'text-white font-semibold' : ''">{{ t('nav.policy') }}</RouterLink>
+                <RouterLink to="/referral" exact-active-class="active"
+                    class="text-[#abc4ff80] hover:text-white no-underline font-medium text-xs transition-colors duration-200"
+                    :class="$route.path === '/referral' ? 'text-white font-semibold' : ''">{{ t('nav.referral') }}</RouterLink>
             </nav>
 
             <div class="flex items-center gap-2 md:gap-5">
@@ -129,6 +132,14 @@ onUnmounted(() => {
                     class="flex items-center justify-between px-6 py-6 text-white font-medium border-b border-[#393a5a]"
                     :class="$route.path === '/policy' ? 'bg-[#1e1b3a33]' : ''">
                     {{ t('nav.policy') }}
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    </svg>
+                </RouterLink>
+                <RouterLink @click="closeMenu" to="/referral"
+                    class="flex items-center justify-between px-6 py-6 text-white font-medium border-b border-[#393a5a]"
+                    :class="$route.path === '/referral' ? 'bg-[#1e1b3a33]' : ''">
+                    {{ t('nav.referral') }}
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                     </svg>

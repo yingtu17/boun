@@ -167,5 +167,14 @@
     "yearly": "毎年:",
     "record": "報酬記録",
     "no_data": "利用可能なデータがありません"
+  },
+  "referral": {
+    "title": "私の紹介",
+    "desc": "紹介リンクを共有して報酬を獲得しましょう。",
+    "link_title": "あなたの紹介リンク",
+    "copy": "リンクをコピー",
+    "stats_title": "紹介統計",
+    "total_referrals": "総紹介人数",
+    "total_rewards": "総報酬"
   }
 }

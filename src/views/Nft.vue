@@ -1,6 +1,22 @@
 <script setup>
 import NftCard from '@/components/NftCard.vue';
 import NFT1 from '@/assets/nft/NFT1.png';
+import NFT2 from '@/assets/nft/NFT2.png';
+import NFT3 from '@/assets/nft/NFT3.png';
+import NFT4 from '@/assets/nft/NFT4.png';
+import NFT5 from '@/assets/nft/NFT5.png';
+import NFT6 from '@/assets/nft/NFT6.png';
+import NFT7 from '@/assets/nft/NFT7.png';
+import NFT8 from '@/assets/nft/NFT8.png';
+import NFT9 from '@/assets/nft/NFT9.png';
+import NFT10 from '@/assets/nft/NFT10.png';
+import NFT11 from '@/assets/nft/NFT11.png';
+import NFT12 from '@/assets/nft/NFT12.png';
+import NFT13 from '@/assets/nft/NFT13.png';
+import NFT14 from '@/assets/nft/NFT14.png';
+import NFT15 from '@/assets/nft/NFT15.png';
+import NFT16 from '@/assets/nft/NFT16.png';
+
 import { useI18n } from 'vue-i18n'
 
 const { t } = useI18n()
@@ -22,7 +38,7 @@ const nfts = [
 		benefitDesc: '0.2% 空投加成',
 		price: 200,
 		usd: 200,
-		image: NFT1,
+		image: NFT2,
 	},
 	{
 		id: 3,
@@ -31,7 +47,7 @@ const nfts = [
 		benefitDesc: '0.5% 空投加成',
 		price: 500,
 		usd: 500,
-		image: NFT1,
+		image: NFT3,
 	},
 	{
 		id: 4,
@@ -40,7 +56,7 @@ const nfts = [
 		benefitDesc: '0.5% 空投加成',
 		price: 500,
 		usd: 500,
-		image: NFT1,
+		image: NFT4,
 	},
 	{
 		id: 5,
@@ -49,7 +65,7 @@ const nfts = [
 		benefitDesc: '0.8% 空投加成',
 		price: 800,
 		usd: 800,
-		image: NFT1,
+		image: NFT5,
 	},
 	{
 		id: 6,
@@ -58,7 +74,7 @@ const nfts = [
 		benefitDesc: '0.8% 空投加成',
 		price: 800,
 		usd: 800,
-		image: NFT1,
+		image: NFT6,
 	},
 	{
 		id: 7,
@@ -67,7 +83,7 @@ const nfts = [
 		benefitDesc: '1.0% 空投加成',
 		price: 1000,
 		usd: 1000,
-		image: NFT1,
+		image: NFT7,
 	},
 	{
 		id: 8,
@@ -76,7 +92,7 @@ const nfts = [
 		benefitDesc: '1.0% 空投加成',
 		price: 1000,
 		usd: 1000,
-		image: NFT1,
+		image: NFT8,
 	},
 	{
 		id: 9,
@@ -85,7 +101,7 @@ const nfts = [
 		benefitDesc: '1.5% 空投加成',
 		price: 2000,
 		usd: 2000,
-		image: NFT1,
+		image: NFT9,
 	},
 	{
 		id: 10,
@@ -94,7 +110,7 @@ const nfts = [
 		benefitDesc: '1.5% 空投加成',
 		price: 2000,
 		usd: 2000,
-		image: NFT1,
+		image: NFT10,
 	},
 	{
 		id: 11,
@@ -103,7 +119,7 @@ const nfts = [
 		benefitDesc: '5.0% 空投加成',
 		price: 5000,
 		usd: 5000,
-		image: NFT1,
+		image: NFT11,
 	},
 	{
 		id: 12,
@@ -112,7 +128,7 @@ const nfts = [
 		benefitDesc: '5.0% 空投加成',
 		price: 5000,
 		usd: 5000,
-		image: NFT1,
+		image: NFT12,
 	},
 	{
 		id: 13,
@@ -121,7 +137,7 @@ const nfts = [
 		benefitDesc: '8.0% 空投加成',
 		price: 8000,
 		usd: 8000,
-		image: NFT1,
+		image: NFT13,
 	},
 	{
 		id: 14,
@@ -130,7 +146,7 @@ const nfts = [
 		benefitDesc: '8.0% 空投加成',
 		price: 8000,
 		usd: 8000,
-		image: NFT1,
+		image: NFT14,
 	},
 	{
 		id: 15,
@@ -139,7 +155,7 @@ const nfts = [
 		benefitDesc: '10.0% 空投加成',
 		price: 10000,
 		usd: 10000,
-		image: NFT1,
+		image: NFT15,
 	},
 	{
 		id: 16,
@@ -148,7 +164,7 @@ const nfts = [
 		benefitDesc: '10.0% 空投加成',
 		price: 10000,
 		usd: 10000,
-		image: NFT1,
+		image: NFT16,
 	},
 ];
 </script>

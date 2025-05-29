@@ -167,5 +167,14 @@
     "yearly": "Tahunan:",
     "record": "Catatan Reward",
     "no_data": "Tidak ada data tersedia"
+  },
+  "referral": {
+    "title": "Referensi Saya",
+    "desc": "Bagikan tautan referensi Anda dan dapatkan reward.",
+    "link_title": "Tautan Referensi Anda",
+    "copy": "Salin Tautan",
+    "stats_title": "Statistik Referensi",
+    "total_referrals": "Total Referensi",
+    "total_rewards": "Total Reward"
   }
 }

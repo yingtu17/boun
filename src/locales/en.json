@@ -13,7 +13,8 @@
     "swap": "Swap",
     "policy": "Policy",
     "language": "Language",
-    "language_current": "English"
+    "language_current": "English",
+    "referral": "My Referral"
   },
   "about": {
     "title": "Earn Passive Income with $BOUNTY",
@@ -167,5 +168,14 @@
     "yearly": "Yearly:",
     "record": "Reward Record",
     "no_data": "No data available"
+  },
+  "referral": {
+    "title": "My Referral",
+    "desc": "Share your referral link and earn rewards.",
+    "link_title": "Your Referral Link",
+    "copy": "Copy Link",
+    "stats_title": "Referral Stats",
+    "total_referrals": "Total Referrals",
+    "total_rewards": "Total Rewards"
   }
 }

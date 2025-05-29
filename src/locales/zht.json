@@ -167,5 +167,14 @@
     "yearly": "每年:",
     "record": "獎勵記錄",
     "no_data": "暫無可用數據"
+  },
+  "referral": {
+    "title": "My Referral",
+    "desc": "Share your referral link and earn rewards.",
+    "link_title": "Your Referral Link",
+    "copy": "Copy Link",
+    "stats_title": "Referral Statistics",
+    "total_referrals": "Total Referrals",
+    "total_rewards": "Total Rewards"
   }
 }
