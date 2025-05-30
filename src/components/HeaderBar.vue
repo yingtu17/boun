@@ -74,9 +74,6 @@ onUnmounted(() => {
                 <RouterLink to="/policy" exact-active-class="active"
                     class="text-[#abc4ff80] hover:text-white no-underline font-medium text-xs transition-colors duration-200"
                     :class="$route.path === '/policy' ? 'text-white font-semibold' : ''">{{ t('nav.policy') }}</RouterLink>
-                <RouterLink to="/referral" exact-active-class="active"
-                    class="text-[#abc4ff80] hover:text-white no-underline font-medium text-xs transition-colors duration-200"
-                    :class="$route.path === '/referral' ? 'text-white font-semibold' : ''">{{ t('nav.referral') }}</RouterLink>
             </nav>
 
             <div class="flex items-center gap-2 md:gap-5">
