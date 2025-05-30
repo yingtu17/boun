@@ -186,51 +186,51 @@ onUnmounted(() => {
                         <div class="px-5 grid grid-cols-2 gap-4">
                             <!-- 每种语言选项 -->
                             <button class="flex items-center space-x-3 py-3" @click="changeLanguage('en')">
-                                <img src="@/assets/us.png" alt="English" class="w-7 h-7 rounded-full" />
+                                <img src="@/assets/US.png" alt="English" class="w-7 h-7 rounded-full" />
                                 <span class="text-white">English</span>
                             </button>
                             <button class="flex items-center space-x-3 py-3" @click="changeLanguage('de')">
-                                <img src="@/assets/de.png" alt="Deutsch" class="w-7 h-7 rounded-full" />
+                                <img src="@/assets/DE.png" alt="Deutsch" class="w-7 h-7 rounded-full" />
                                 <span class="text-white">Deutsch</span>
                             </button>
                             <button class="flex items-center space-x-3 py-3" @click="changeLanguage('fr')">
-                                <img src="@/assets/fr.png" alt="Français" class="w-7 h-7 rounded-full" />
+                                <img src="@/assets/FR.png" alt="Français" class="w-7 h-7 rounded-full" />
                                 <span class="text-white">Français</span>
                             </button>
                             <button class="flex items-center space-x-3 py-3" @click="changeLanguage('pt')">
-                                <img src="@/assets/pt.png" alt="Português" class="w-7 h-7 rounded-full" />
+                                <img src="@/assets/PT.png" alt="Português" class="w-7 h-7 rounded-full" />
                                 <span class="text-white">Português</span>
                             </button>
                             <button class="flex items-center space-x-3 py-3" @click="changeLanguage('zh-CN')">
-                                <img src="@/assets/cn.png" alt="简体中文" class="w-7 h-7 rounded-full" />
+                                <img src="@/assets/CN.png" alt="简体中文" class="w-7 h-7 rounded-full" />
                                 <span class="text-white">简体中文</span>
                             </button>
                             <button class="flex items-center space-x-3 py-3" @click="changeLanguage('zh-TW')">
-                                <img src="@/assets/tw.png" alt="繁体中文" class="w-7 h-7 rounded-full" />
+                                <img src="@/assets/TW.png" alt="繁体中文" class="w-7 h-7 rounded-full" />
                                 <span class="text-white">繁體中文</span>
                             </button>
                             <button class="flex items-center space-x-3 py-3" @click="changeLanguage('ja')">
-                                <img src="@/assets/jp.png" alt="日本語" class="w-7 h-7 rounded-full" />
+                                <img src="@/assets/JP.png" alt="日本語" class="w-7 h-7 rounded-full" />
                                 <span class="text-white">日本語</span>
                             </button>
                             <button class="flex items-center space-x-3 py-3" @click="changeLanguage('ko')">
-                                <img src="@/assets/kr.png" alt="한국어" class="w-7 h-7 rounded-full" />
+                                <img src="@/assets/KR.png" alt="한국어" class="w-7 h-7 rounded-full" />
                                 <span class="text-white">한국어</span>
                             </button>
                             <button class="flex items-center space-x-3 py-3" @click="changeLanguage('hi')">
-                                <img src="@/assets/in.png" alt="हिंदी" class="w-7 h-7 rounded-full" />
+                                <img src="@/assets/IN.png" alt="हिंदी" class="w-7 h-7 rounded-full" />
                                 <span class="text-white">हिंदी</span>
                             </button>
                             <button class="flex items-center space-x-3 py-3" @click="changeLanguage('id')">
-                                <img src="@/assets/id.png" alt="Indonesia" class="w-7 h-7 rounded-full" />
+                                <img src="@/assets/ID.png" alt="Indonesia" class="w-7 h-7 rounded-full" />
                                 <span class="text-white">Indonesia</span>
                             </button>
                             <button class="flex items-center space-x-3 py-3" @click="changeLanguage('th')">
-                                <img src="@/assets/th.png" alt="ภาษาไทย" class="w-7 h-7 rounded-full" />
+                                <img src="@/assets/TH.png" alt="ภาษาไทย" class="w-7 h-7 rounded-full" />
                                 <span class="text-white">ภาษาไทย</span>
                             </button>
                             <button class="flex items-center space-x-3 py-3" @click="changeLanguage('vi')">
-                                <img src="@/assets/vn.png" alt="tiếng Việt" class="w-7 h-7 rounded-full" />
+                                <img src="@/assets/VN.png" alt="tiếng Việt" class="w-7 h-7 rounded-full" />
                                 <span class="text-white">tiếng Việt</span>
                             </button>
                         </div>
