@@ -148,7 +148,10 @@
   },
   "nft": {
     "title": "Mercado NFT",
-    "desc": "Cada NFT oferece recompensas e benefícios únicos para os detentores no ecossistema $BOUNTY."
+    "desc": "Cada NFT oferece recompensas e benefícios únicos para os detentores no ecossistema $BOUNTY.",
+    "benefit": "Benefícios",
+    "airdrop_bonus": "{percent} Airdrop Bonus",
+    "buy": "Comprar"
   },
   "policy": {
     "title": "Política e Informações",
@@ -169,12 +172,45 @@
     "no_data": "Nenhum dado disponível"
   },
   "referral": {
-    "title": "Minhas Indicações",
-    "desc": "Compartilhe seu link de indicação e ganhe recompensas.",
-    "link_title": "Seu Link de Indicação",
-    "copy": "Copiar Link",
-    "stats_title": "Estatísticas de Indicação",
-    "total_referrals": "Total de Indicações",
-    "total_rewards": "Recompensas Totais"
+    "title": "Programa de Indicação",
+    "subtitle": "Compartilhe seu link de indicação e veja suas recompensas crescerem!",
+    "copy_success": "Link copiado",
+    "tabs": {
+      "share": "Compartilhar",
+      "control": "Painel de Controle"
+    },
+    "rewards": {
+      "title": "Recompensas de Indicação",
+      "description": "Ganhe comissões de indicação de até 10 níveis, com taxas variando de acordo com seu nível atual.",
+      "level": "Nível {level}: {percent}",
+      "levels": {
+        "champion": "Campeão (100.000 - 299.999)",
+        "elite": "Elite (50.000 - 99.999)",
+        "professional": "Profissional (30.000 - 49.999)",
+        "rising_star": "Estrela em Ascensão (10.000 - 29.999)",
+        "explorer": "Explorador (5.000 - 9.999)",
+        "beginner": "Iniciante (1.000 - 4.999)",
+        "novice": "Novato (100 - 999)"
+      },
+      "growth": {
+        "title": "Veja Suas Recompensas Crescerem",
+        "description": "Quanto mais você convida, mais você ganha! Acompanhe seus resultados no painel de indicações, com recompensas pagas em tokens $BOUNTY diretamente em sua carteira."
+      }
+    },
+    "invite": {
+      "title": "Convide Amigos",
+      "description": "Amigos que se registram com seu código de indicação tornam-se seus indicados. Você receberá comissões de todas as trocas realizadas.",
+      "link": "Link de Indicação",
+      "share": "Compartilhar Link"
+    },
+    "stats": {
+      "team": "Minha Equipe",
+      "invited": "Amigos Convidados",
+      "exchanges": "Trocas Indicadas",
+      "rewards": "Recompensas Recebidas"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 $BOUNTY Rewards. Todos os direitos reservados."
   }
 }

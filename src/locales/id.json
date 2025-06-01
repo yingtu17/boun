@@ -148,7 +148,10 @@
   },
   "nft": {
     "title": "Pasar NFT",
-    "desc": "Setiap NFT memberikan reward dan manfaat unik bagi pemegang di ekosistem $BOUNTY."
+    "desc": "Setiap NFT memberikan reward dan manfaat unik bagi pemegang di ekosistem $BOUNTY.",
+    "benefit": "Lợi ích",
+    "airdrop_bonus": "{percent} Airdrop Bonus",
+    "buy": "Beli"
   },
   "policy": {
     "title": "Kebijakan & Info",
@@ -169,12 +172,45 @@
     "no_data": "Tidak ada data tersedia"
   },
   "referral": {
-    "title": "Referensi Saya",
-    "desc": "Bagikan tautan referensi Anda dan dapatkan reward.",
-    "link_title": "Tautan Referensi Anda",
-    "copy": "Salin Tautan",
-    "stats_title": "Statistik Referensi",
-    "total_referrals": "Total Referensi",
-    "total_rewards": "Total Reward"
+    "title": "Program Referral",
+    "subtitle": "Bagikan tautan referral Anda, dapatkan reward yang terus bertambah!",
+    "copy_success": "Tautan telah disalin",
+    "tabs": {
+      "share": "Berbagi",
+      "control": "Dasbor"
+    },
+    "rewards": {
+      "title": "Reward Referral",
+      "description": "Dapatkan komisi reward hingga 10 tingkat referral penukaran, persentase komisi akan bervariasi berdasarkan level Anda saat ini.",
+      "level": "Level {level}: {percent}",
+      "levels": {
+        "champion": "Juara (100,000 - 299,999)",
+        "elite": "Elit (50,000 - 99,999)",
+        "professional": "Profesional (30,000 - 49,999)",
+        "rising_star": "Bintang Baru (10,000 - 29,999)",
+        "explorer": "Penjelajah (5,000 - 9,999)",
+        "beginner": "Pemula (1,000 - 4,999)",
+        "novice": "Novice (100 - 999)"
+      },
+      "growth": {
+        "title": "Saksikan Pertumbuhan Reward",
+        "description": "Semakin banyak yang Anda undang, semakin banyak yang Anda hasilkan! Lacak hasil Anda melalui dasbor referral, reward akan dikirim ke dompet Anda dalam bentuk token $BOUNTY."
+      }
+    },
+    "invite": {
+      "title": "Undang Teman",
+      "description": "Teman yang mendaftar dengan kode referral Anda akan menjadi downline Anda. Anda akan mendapatkan komisi reward dari semua penukaran mereka.",
+      "link": "Tautan Referral",
+      "share": "Bagikan Tautan"
+    },
+    "stats": {
+      "team": "Tim Saya",
+      "invited": "Teman yang Diundang",
+      "exchanges": "Penukaran Referral",
+      "rewards": "Reward yang Diterima"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 $BOUNTY Rewards. Hak Cipta Dilindungi."
   }
 }

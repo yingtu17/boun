@@ -148,7 +148,10 @@
   },
   "nft": {
     "title": "Marché NFT",
-    "desc": "Chaque NFT offre des récompenses et des avantages uniques pour les détenteurs dans l'écosystème $BOUNTY."
+    "desc": "Chaque NFT offre des récompenses et des avantages uniques pour les détenteurs dans l'écosystème $BOUNTY.",
+    "benefit": "Avantages",
+    "airdrop_bonus": "{percent} Airdrop Bonus",
+    "buy": "Acheter"
   },
   "policy": {
     "title": "Politique & Informations",
@@ -169,12 +172,45 @@
     "no_data": "Aucune donnée disponible"
   },
   "referral": {
-    "title": "Mon Parrainage",
-    "desc": "Partagez votre lien de parrainage et gagnez des récompenses.",
-    "link_title": "Votre lien de parrainage",
-    "copy": "Copier le lien",
-    "stats_title": "Statistiques de parrainage",
-    "total_referrals": "Nombre total de filleuls",
-    "total_rewards": "Récompenses totales"
+    "title": "Programme de parrainage",
+    "subtitle": "Partagez votre lien de parrainage et voyez vos récompenses grandir !",
+    "copy_success": "Lien copié",
+    "tabs": {
+      "share": "Partager",
+      "control": "Tableau de bord"
+    },
+    "rewards": {
+      "title": "Récompenses de parrainage",
+      "description": "Gagnez des commissions sur les échanges jusqu'à 10 niveaux de parrainage, avec des taux variant selon votre niveau actuel.",
+      "level": "Niveau {level} : {percent}",
+      "levels": {
+        "champion": "Champion (100,000 - 299,999)",
+        "elite": "Élite (50,000 - 99,999)",
+        "professional": "Professionnel (30,000 - 49,999)",
+        "rising_star": "Étoile Montante (10,000 - 29,999)",
+        "explorer": "Explorateur (5,000 - 9,999)",
+        "beginner": "Débutant (1,000 - 4,999)",
+        "novice": "Novice (100 - 999)"
+      },
+      "growth": {
+        "title": "Observez vos récompenses croître",
+        "description": "Plus vous invitez, plus vous gagnez ! Suivez vos résultats via le tableau de bord de parrainage, les récompenses sont distribuées en jetons $BOUNTY dans votre portefeuille."
+      }
+    },
+    "invite": {
+      "title": "Inviter des amis",
+      "description": "Les amis qui s'inscrivent avec votre code de parrainage deviennent vos filleuls. Vous recevrez des commissions sur tous leurs échanges.",
+      "link": "Lien de parrainage",
+      "share": "Partager le lien"
+    },
+    "stats": {
+      "team": "Mon équipe",
+      "invited": "Amis invités",
+      "exchanges": "Échanges parrainés",
+      "rewards": "Récompenses gagnées"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 $BOUNTY Rewards. Tous droits réservés."
   }
 }

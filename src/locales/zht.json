@@ -148,7 +148,10 @@
   },
   "nft": {
     "title": "NFT 市場",
-    "desc": "每個 NFT 在 $BOUNTY 生態系統中為持有者提供獨特的獎勵和福利。"
+    "desc": "每個 NFT 在 $BOUNTY 生態系統中為持有者提供獨特的獎勵和福利。",
+    "benefit": "福利",
+    "airdrop_bonus": "{percent} 空投加成",
+    "buy": "購買"
   },
   "policy": {
     "title": "資訊與政策",
@@ -169,12 +172,45 @@
     "no_data": "暫無可用數據"
   },
   "referral": {
-    "title": "My Referral",
-    "desc": "Share your referral link and earn rewards.",
-    "link_title": "Your Referral Link",
-    "copy": "Copy Link",
-    "stats_title": "Referral Statistics",
-    "total_referrals": "Total Referrals",
-    "total_rewards": "Total Rewards"
+    "title": "推薦計劃",
+    "subtitle": "分享您的推薦鏈接，獎勵不斷增長！",
+    "copy_success": "鏈接已複製",
+    "tabs": {
+      "share": "分享中",
+      "control": "控制台"
+    },
+    "rewards": {
+      "title": "推薦獎勵",
+      "description": "賺取最多 10 級推薦兌換佣金獎勵，佣金比例將根據您的當前等級而有所不同。",
+      "level": "等級 {level}：{percent}",
+      "levels": {
+        "champion": "冠軍（100,000 - 299,999）",
+        "elite": "精英（50,000 - 99,999）",
+        "professional": "專業（30,000 - 49,999）",
+        "rising_star": "新星（10,000 - 29,999）",
+        "explorer": "探索者（5,000 - 9,999）",
+        "beginner": "初學者（1,000 - 4,999）",
+        "novice": "新手（100 - 999）"
+      },
+      "growth": {
+        "title": "見證獎勵增長",
+        "description": "邀請越多，賺得越多！通過推薦控制台跟蹤您的成果，獎勵將以 GOMINING 代幣形式發放到您的虛擬錢包中。"
+      }
+    },
+    "invite": {
+      "title": "邀請朋友",
+      "description": "朋友使用您的推薦碼註冊後將成為您的下線推薦人。您將從所有兌換中獲得佣金獎勵。",
+      "link": "推薦鏈接",
+      "share": "分享鏈接"
+    },
+    "stats": {
+      "team": "我的團隊",
+      "invited": "已邀請好友",
+      "exchanges": "推薦兌換",
+      "rewards": "已獲得獎勵"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 $BOUNTY Rewards. 保留所有權利。"
   }
 }

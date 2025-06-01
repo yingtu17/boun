@@ -25,16 +25,16 @@
                 class="rounded-xl bg-[#1e1b3ab3] bg-opacity-80 border border-[#393a5a] px-8 py-8 flex flex-col items-center">
                 <p class="text-[#b8b8d0] mb-2">{{ t('stats.loyalty') }}</p>
                 <p
-                    class="text-2xl font-bold bg-gradient-to-r from-[#c94fff] to-[#7a5cff] text-transparent bg-clip-text">
-                    $126.078009B
+                    class="flex items-end text-2xl font-bold bg-gradient-to-r from-[#c94fff] to-[#7a5cff] text-transparent bg-clip-text">
+                    ${{ loyaltyMainPart }}<span class="text-sm align-top">{{ loyaltyDecimalPart }}</span>B
                 </p>
             </div>
             <div
                 class="rounded-xl bg-[#1e1b3ab3] bg-opacity-80 border border-[#393a5a] px-8 py-8 flex flex-col items-center">
                 <p class="text-[#b8b8d0] mb-2">{{ t('stats.usdt_hold') }}</p>
                 <p
-                    class="text-2xl font-bold bg-gradient-to-r from-[#c94fff] to-[#7a5cff] text-transparent bg-clip-text">
-                    2,811.7775M
+                    class="flex items-end text-2xl font-bold bg-gradient-to-r from-[#c94fff] to-[#7a5cff] text-transparent bg-clip-text">
+                    {{ usdtMainPart }}<span class="text-sm align-top">{{ usdtDecimalPart }}</span>M
                 </p>
             </div>
             <div
@@ -58,16 +58,98 @@
 </template>
 
 <script setup>
-import { ref, onMounted, onUnmounted } from 'vue'
+import { ref, onMounted, onUnmounted, computed } from 'vue'
 import { useI18n } from 'vue-i18n'
 
 const { t } = useI18n()
 
 const minutes = ref(59)
 const seconds = ref(59)
-let timer = null
+let countdownTimer = null
+let incrementTimer = null
 
-const tick = () => {
+// 初始值设定
+const loyaltyValue = ref(157.4)
+const usdtHolding = ref(3511.3)
+
+// 增加更大的增量值
+const loyaltyIncrement = 0.0035
+const usdtHoldingIncrement = 0.086
+
+// 增加小数位的随机变化
+const addRandomToLastDigit = (value) => {
+  // 获取当前值的字符串表示
+  let valueStr = value.toFixed(6);
+  let parts = valueStr.split('.');
+  
+  // 分离整数部分和小数部分
+  let intPart = parts[0];
+  let decPart = parts[1] || '000000';
+  
+  // 修改最后一位数字（快速变化）
+  let lastDigit = Math.floor(Math.random() * 10);
+  
+  // 有20%的概率修改倒数第二位数字（稍慢变化）
+  let secondLastDigit = decPart.charAt(4);
+  if (Math.random() < 0.2) {
+    secondLastDigit = Math.floor(Math.random() * 10);
+  }
+  
+  // 构建新的小数部分
+  let newDecPart = decPart.substring(0, 4) + secondLastDigit + lastDigit;
+  
+  // 返回新值
+  return parseFloat(intPart + '.' + newDecPart);
+}
+
+// 格式化数据，保留特定位数
+const formattedLoyalty = computed(() => {
+    return loyaltyValue.value.toFixed(6)
+})
+
+const formattedUsdtHolding = computed(() => {
+    return usdtHolding.value.toFixed(3)
+})
+
+// 格式化数据，拆分为主要部分和小数部分
+const loyaltyMainPart = computed(() => {
+    const valueStr = loyaltyValue.value.toString();
+    const parts = valueStr.split('.');
+    if (parts.length > 1 && parts[1].length > 0) {
+        return parts[0] + '.' + parts[1][0];
+    }
+    return parts[0] + '.0';
+})
+
+const loyaltyDecimalPart = computed(() => {
+    const valueStr = loyaltyValue.value.toFixed(5);
+    const parts = valueStr.split('.');
+    if (parts.length > 1 && parts[1].length > 1) {
+        return parts[1].substring(1);
+    }
+    return '';
+})
+
+const usdtMainPart = computed(() => {
+    const valueStr = usdtHolding.value.toString();
+    const parts = valueStr.split('.');
+    if (parts.length > 1 && parts[1].length > 0) {
+        return parts[0] + '.' + parts[1][0];
+    }
+    return parts[0] + '.0';
+})
+
+const usdtDecimalPart = computed(() => {
+    const valueStr = usdtHolding.value.toFixed(3);
+    const parts = valueStr.split('.');
+    if (parts.length > 1 && parts[1].length > 1) {
+        return parts[1].substring(1);
+    }
+    return '';
+})
+
+// 处理倒计时的函数
+const tickCountdown = () => {
     if (seconds.value > 0) {
         seconds.value--
     } else if (minutes.value > 0) {
@@ -79,10 +161,27 @@ const tick = () => {
     }
 }
 
+// 处理数值增长的函数
+const tickIncrement = () => {
+    // 增加数值并添加随机变化
+    loyaltyValue.value += loyaltyIncrement;
+    usdtHolding.value += usdtHoldingIncrement;
+    
+    // 对最后几位数字进行随机变化
+    loyaltyValue.value = addRandomToLastDigit(loyaltyValue.value);
+    usdtHolding.value = addRandomToLastDigit(usdtHolding.value);
+}
+
 onMounted(() => {
-    timer = setInterval(tick, 1000)
+    // 倒计时每秒更新一次
+    countdownTimer = setInterval(tickCountdown, 1000)
+    
+    // 数值增长每100毫秒更新一次
+    incrementTimer = setInterval(tickIncrement, 100)
 })
+
 onUnmounted(() => {
-    clearInterval(timer)
+    clearInterval(countdownTimer)
+    clearInterval(incrementTimer)
 })
 </script>

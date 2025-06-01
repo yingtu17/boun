@@ -148,7 +148,10 @@
   },
   "nft": {
     "title": "NFT 마켓",
-    "desc": "각 NFT는 $BOUNTY 생태계에서 보유자에게 독특한 보상과 혜택을 제공합니다."
+    "desc": "각 NFT는 $BOUNTY 생태계에서 보유자에게 독특한 보상과 혜택을 제공합니다.",
+    "benefit": "특전",
+    "airdrop_bonus": "{percent} 에어드롭 보너스",
+    "buy": "구매"
   },
   "policy": {
     "title": "정책 및 정보",
@@ -169,12 +172,45 @@
     "no_data": "사용 가능한 데이터가 없습니다"
   },
   "referral": {
-    "title": "내 추천",
-    "desc": "추천 링크를 공유하고 보상을 받으세요.",
-    "link_title": "내 추천 링크",
-    "copy": "링크 복사",
-    "stats_title": "추천 통계",
-    "total_referrals": "총 추천 수",
-    "total_rewards": "총 보상"
+    "title": "추천 프로그램",
+    "subtitle": "추천 링크를 공유하고 보상을 계속 받으세요!",
+    "copy_success": "링크가 복사되었습니다",
+    "tabs": {
+      "share": "공유하기",
+      "control": "대시보드"
+    },
+    "rewards": {
+      "title": "추천 보상",
+      "description": "최대 10단계 추천 교환 수수료 보상을 받으세요. 수수료 비율은 현재 등급에 따라 다릅니다.",
+      "level": "레벨 {level}: {percent}",
+      "levels": {
+        "champion": "챔피언 (100,000 - 299,999)",
+        "elite": "엘리트 (50,000 - 99,999)",
+        "professional": "프로 (30,000 - 49,999)",
+        "rising_star": "라이징 스타 (10,000 - 29,999)",
+        "explorer": "탐험가 (5,000 - 9,999)",
+        "beginner": "초보자 (1,000 - 4,999)",
+        "novice": "초심자 (100 - 999)"
+      },
+      "growth": {
+        "title": "보상 성장 확인하기",
+        "description": "더 많이 초대할수록 더 많이 얻습니다! 추천 대시보드에서 성과를 추적하세요. 보상은 GOMINING 토큰으로 가상 지갑에 지급됩니다."
+      }
+    },
+    "invite": {
+      "title": "친구 초대하기",
+      "description": "친구가 귀하의 추천 코드로 가입하면 귀하의 다운라인 추천인이 됩니다. 모든 교환에서 수수료 보상을 받게 됩니다.",
+      "link": "추천 링크",
+      "share": "링크 공유하기"
+    },
+    "stats": {
+      "team": "내 팀",
+      "invited": "초대한 친구",
+      "exchanges": "추천 교환",
+      "rewards": "받은 보상"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 $BOUNTY 보상. 모든 권리 보유."
   }
 }

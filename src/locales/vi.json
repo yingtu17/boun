@@ -148,7 +148,10 @@
   },
   "nft": {
     "title": "Thị trường NFT",
-    "desc": "Mỗi NFT cung cấp phần thưởng và lợi ích độc đáo cho những người nắm giữ trong hệ sinh thái $BOUNTY."
+    "desc": "Mỗi NFT cung cấp phần thưởng và lợi ích độc đáo cho những người nắm giữ trong hệ sinh thái $BOUNTY.",
+    "benefit": "Lợi ích",
+    "airdrop_bonus": "{percent} Airdrop Bonus",
+    "buy": "Mua"
   },
   "policy": {
     "title": "Chính sách & Thông tin",
@@ -169,12 +172,45 @@
     "no_data": "Không có dữ liệu khả dụng"
   },
   "referral": {
-    "title": "Giới thiệu của tôi",
-    "desc": "Chia sẻ liên kết giới thiệu của bạn và kiếm phần thưởng.",
-    "link_title": "Liên kết giới thiệu của bạn",
-    "copy": "Sao chép liên kết",
-    "stats_title": "Thống kê giới thiệu",
-    "total_referrals": "Tổng số lượt giới thiệu",
-    "total_rewards": "Tổng phần thưởng"
+    "title": "Chương trình giới thiệu",
+    "subtitle": "Chia sẻ liên kết giới thiệu của bạn, phần thưởng liên tục tăng!",
+    "copy_success": "Đã sao chép liên kết",
+    "tabs": {
+      "share": "Chia sẻ",
+      "control": "Bảng điều khiển"
+    },
+    "rewards": {
+      "title": "Phần thưởng giới thiệu",
+      "description": "Kiếm tới 10 cấp hoa hồng thưởng giới thiệu, tỷ lệ hoa hồng sẽ khác nhau tùy thuộc vào cấp độ hiện tại của bạn.",
+      "level": "Cấp {level}: {percent}",
+      "levels": {
+        "champion": "Nhà vô địch (100,000 - 299,999)",
+        "elite": "Tinh anh (50,000 - 99,999)",
+        "professional": "Chuyên gia (30,000 - 49,999)",
+        "rising_star": "Ngôi sao đang lên (10,000 - 29,999)",
+        "explorer": "Nhà thám hiểm (5,000 - 9,999)",
+        "beginner": "Người mới bắt đầu (1,000 - 4,999)",
+        "novice": "Người mới (100 - 999)"
+      },
+      "growth": {
+        "title": "Chứng kiến sự tăng trưởng phần thưởng",
+        "description": "Mời càng nhiều, kiếm càng nhiều! Theo dõi kết quả của bạn qua bảng điều khiển giới thiệu, phần thưởng sẽ được gửi vào ví điện tử của bạn dưới dạng token $BOUNTY."
+      }
+    },
+    "invite": {
+      "title": "Mời bạn bè",
+      "description": "Khi bạn bè đăng ký bằng mã giới thiệu của bạn, họ sẽ trở thành người được bạn giới thiệu. Bạn sẽ nhận được hoa hồng từ tất cả các giao dịch.",
+      "link": "Liên kết giới thiệu",
+      "share": "Chia sẻ liên kết"
+    },
+    "stats": {
+      "team": "Đội của tôi",
+      "invited": "Bạn bè đã mời",
+      "exchanges": "Giao dịch giới thiệu",
+      "rewards": "Phần thưởng đã nhận"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 $BOUNTY Rewards. Tất cả quyền được bảo lưu."
   }
 }

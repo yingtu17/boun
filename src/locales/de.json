@@ -149,7 +149,10 @@
   },
   "nft": {
     "title": "NFT-Marktplatz",
-    "desc": "Jedes NFT bietet seinen Haltern einzigartige Belohnungen und Vorteile im $BOUNTY-Ökosystem."
+    "desc": "Jedes NFT bietet seinen Haltern einzigartige Belohnungen und Vorteile im $BOUNTY-Ökosystem.",
+    "benefit": "Lợi ích",
+    "airdrop_bonus": "{percent} Airdrop Bonus",
+    "buy": "Kaufen"
   },
   "policy": {
     "title": "Info & Richtlinien",
@@ -170,12 +173,45 @@
     "no_data": "Keine Daten verfügbar"
   },
   "referral": {
-    "title": "Meine Empfehlung",
-    "desc": "Teilen Sie Ihren Empfehlungslink und verdienen Sie Belohnungen.",
-    "link_title": "Ihr Empfehlungslink",
-    "copy": "Link kopieren",
-    "stats_title": "Empfehlungsstatistiken",
-    "total_referrals": "Gesamtzahl Empfehlungen",
-    "total_rewards": "Gesamtbelohnungen"
+    "title": "Empfehlungsprogramm",
+    "subtitle": "Teilen Sie Ihren Empfehlungslink und lassen Sie Ihre Belohnungen wachsen!",
+    "copy_success": "Link kopiert",
+    "tabs": {
+      "share": "Teilen",
+      "control": "Kontrollzentrum"
+    },
+    "rewards": {
+      "title": "Empfehlungsprämien",
+      "description": "Verdienen Sie Provisionen für bis zu 10 Empfehlungsebenen, wobei die Provisionssätze je nach Ihrem aktuellen Level variieren.",
+      "level": "Level {level}: {percent}",
+      "levels": {
+        "champion": "Champion (100.000 - 299.999)",
+        "elite": "Elite (50.000 - 99.999)",
+        "professional": "Profi (30.000 - 49.999)",
+        "rising_star": "Aufsteiger (10.000 - 29.999)",
+        "explorer": "Entdecker (5.000 - 9.999)",
+        "beginner": "Anfänger (1.000 - 4.999)",
+        "novice": "Neuling (100 - 999)"
+      },
+      "growth": {
+        "title": "Sehen Sie Ihre Belohnungen wachsen",
+        "description": "Je mehr Sie einladen, desto mehr verdienen Sie! Verfolgen Sie Ihre Ergebnisse über das Empfehlungskontrollzentrum. Belohnungen werden in GOMINING-Token an Ihre Wallet gesendet."
+      }
+    },
+    "invite": {
+      "title": "Freunde einladen",
+      "description": "Wenn Freunde sich mit Ihrem Empfehlungscode registrieren, werden sie zu Ihren Downline-Empfehlungen. Sie erhalten Provisionen aus allen Umtäuschen.",
+      "link": "Empfehlungslink",
+      "share": "Link teilen"
+    },
+    "stats": {
+      "team": "Mein Team",
+      "invited": "Eingeladene Freunde",
+      "exchanges": "Empfehlungsumtäusche",
+      "rewards": "Erhaltene Belohnungen"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 $BOUNTY Rewards. Alle Rechte vorbehalten."
   }
 }

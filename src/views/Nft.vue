@@ -25,8 +25,8 @@ const nfts = [
 	{
 		id: 1,
 		name: 'ELON MUSK',
-		benefit: '福利',
-		benefitDesc: '0.2% 空投加成',
+		benefit: t('nft.benefit'),
+		benefitDesc: t('nft.airdrop_bonus', { percent: '0.2%' }),
 		price: 200,
 		usd: 200,
 		image: NFT1,
@@ -34,8 +34,8 @@ const nfts = [
 	{
 		id: 2,
 		name: 'ELON MUSK',
-		benefit: '福利',
-		benefitDesc: '0.2% 空投加成',
+		benefit: t('nft.benefit'),
+		benefitDesc: t('nft.airdrop_bonus', { percent: '0.2%' }),
 		price: 200,
 		usd: 200,
 		image: NFT2,
@@ -43,8 +43,8 @@ const nfts = [
 	{
 		id: 3,
 		name: 'ELON MUSK',
-		benefit: '福利',
-		benefitDesc: '0.5% 空投加成',
+		benefit: t('nft.benefit'),
+		benefitDesc: t('nft.airdrop_bonus', { percent: '0.5%' }),
 		price: 500,
 		usd: 500,
 		image: NFT3,
@@ -52,8 +52,8 @@ const nfts = [
 	{
 		id: 4,
 		name: 'ELON MUSK',
-		benefit: '福利',
-		benefitDesc: '0.5% 空投加成',
+		benefit: t('nft.benefit'),
+		benefitDesc: t('nft.airdrop_bonus', { percent: '0.5%' }),
 		price: 500,
 		usd: 500,
 		image: NFT4,
@@ -61,8 +61,8 @@ const nfts = [
 	{
 		id: 5,
 		name: 'ELON MUSK',
-		benefit: '福利',
-		benefitDesc: '0.8% 空投加成',
+		benefit: t('nft.benefit'),
+		benefitDesc: t('nft.airdrop_bonus', { percent: '0.8%' }),
 		price: 800,
 		usd: 800,
 		image: NFT5,
@@ -70,8 +70,8 @@ const nfts = [
 	{
 		id: 6,
 		name: 'ELON MUSK',
-		benefit: '福利',
-		benefitDesc: '0.8% 空投加成',
+		benefit: t('nft.benefit'),
+		benefitDesc: t('nft.airdrop_bonus', { percent: '0.8%' }),
 		price: 800,
 		usd: 800,
 		image: NFT6,
@@ -79,8 +79,8 @@ const nfts = [
 	{
 		id: 7,
 		name: 'ELON MUSK',
-		benefit: '福利',
-		benefitDesc: '1.0% 空投加成',
+		benefit: t('nft.benefit'),
+		benefitDesc: t('nft.airdrop_bonus', { percent: '1.0%' }),
 		price: 1000,
 		usd: 1000,
 		image: NFT7,
@@ -88,8 +88,8 @@ const nfts = [
 	{
 		id: 8,
 		name: 'ELON MUSK',
-		benefit: '福利',
-		benefitDesc: '1.0% 空投加成',
+		benefit: t('nft.benefit'),
+		benefitDesc: t('nft.airdrop_bonus', { percent: '1.0%' }),
 		price: 1000,
 		usd: 1000,
 		image: NFT8,
@@ -97,8 +97,8 @@ const nfts = [
 	{
 		id: 9,
 		name: 'DONALD TRUMP',
-		benefit: '福利',
-		benefitDesc: '1.5% 空投加成',
+		benefit: t('nft.benefit'),
+		benefitDesc: t('nft.airdrop_bonus', { percent: '1.5%' }),
 		price: 2000,
 		usd: 2000,
 		image: NFT9,
@@ -106,8 +106,8 @@ const nfts = [
 	{
 		id: 10,
 		name: 'DONALD TRUMP',
-		benefit: '福利',
-		benefitDesc: '1.5% 空投加成',
+		benefit: t('nft.benefit'),
+		benefitDesc: t('nft.airdrop_bonus', { percent: '1.5%' }),
 		price: 2000,
 		usd: 2000,
 		image: NFT10,
@@ -115,8 +115,8 @@ const nfts = [
 	{
 		id: 11,
 		name: 'DONALD TRUMP',
-		benefit: '福利',
-		benefitDesc: '5.0% 空投加成',
+		benefit: t('nft.benefit'),
+		benefitDesc: t('nft.airdrop_bonus', { percent: '5.0%' }),
 		price: 5000,
 		usd: 5000,
 		image: NFT11,
@@ -124,8 +124,8 @@ const nfts = [
 	{
 		id: 12,
 		name: 'DONALD TRUMP',
-		benefit: '福利',
-		benefitDesc: '5.0% 空投加成',
+		benefit: t('nft.benefit'),
+		benefitDesc: t('nft.airdrop_bonus', { percent: '5.0%' }),
 		price: 5000,
 		usd: 5000,
 		image: NFT12,
@@ -133,8 +133,8 @@ const nfts = [
 	{
 		id: 13,
 		name: 'DONALD TRUMP',
-		benefit: '福利',
-		benefitDesc: '8.0% 空投加成',
+		benefit: t('nft.benefit'),
+		benefitDesc: t('nft.airdrop_bonus', { percent: '8.0%' }),
 		price: 8000,
 		usd: 8000,
 		image: NFT13,
@@ -142,8 +142,8 @@ const nfts = [
 	{
 		id: 14,
 		name: 'DONALD TRUMP',
-		benefit: '福利',
-		benefitDesc: '8.0% 空投加成',
+		benefit: t('nft.benefit'),
+		benefitDesc: t('nft.airdrop_bonus', { percent: '8.0%' }),
 		price: 8000,
 		usd: 8000,
 		image: NFT14,
@@ -151,8 +151,8 @@ const nfts = [
 	{
 		id: 15,
 		name: 'DONALD TRUMP',
-		benefit: '福利',
-		benefitDesc: '10.0% 空投加成',
+		benefit: t('nft.benefit'),
+		benefitDesc: t('nft.airdrop_bonus', { percent: '10.0%' }),
 		price: 10000,
 		usd: 10000,
 		image: NFT15,
@@ -160,8 +160,8 @@ const nfts = [
 	{
 		id: 16,
 		name: 'DONALD TRUMP',
-		benefit: '福利',
-		benefitDesc: '10.0% 空投加成',
+		benefit: t('nft.benefit'),
+		benefitDesc: t('nft.airdrop_bonus', { percent: '10.0%' }),
 		price: 10000,
 		usd: 10000,
 		image: NFT16,
@@ -171,7 +171,7 @@ const nfts = [
 
 <template>
 	<div class="min-h-screen flex flex-col bg-gradient-to-b">
-		<div class="flex-1 w-full max-w-10/12 mx-auto px-4 md:px-6 py-6 md:py-10">
+		<div class="flex-1 w-full max-w-10/12 mx-auto px-0 md:px-6 py-6 md:py-10">
 			<h1 class="text-2xl md:text-3xl font-bold text-[#7645f6] mb-2">{{ t('nft.title') }}</h1>
 			<p class="mb-6 md:mb-8 text-[#b8b8d0] text-xs md:text-sm">{{ t('nft.desc') }}</p>
 			<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-7">
